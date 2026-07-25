@@ -1,0 +1,1094 @@
+[
+  {
+    "formula": "HCl",
+    "name": "Hydrochloric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "H2SO4",
+    "name": "Sulfuric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive, Oxidizer"
+  },
+  {
+    "formula": "HNO3",
+    "name": "Nitric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive, Oxidizer"
+  },
+  {
+    "formula": "CH3COOH",
+    "name": "Acetic Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "NaOH",
+    "name": "Sodium Hydroxide",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "KOH",
+    "name": "Potassium Hydroxide",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "NH3",
+    "name": "Ammonia Solution",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Ca(OH)2",
+    "name": "Calcium Hydroxide (Limewater)",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "NaCl",
+    "name": "Sodium Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "AgNO3",
+    "name": "Silver Nitrate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Corrosive, Light-sensitive"
+  },
+  {
+    "formula": "BaCl2",
+    "name": "Barium Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Toxic"
+  },
+  {
+    "formula": "Na2SO4",
+    "name": "Sodium Sulfate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "CuSO4",
+    "name": "Copper(II) Sulfate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "FeCl3",
+    "name": "Iron(III) Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "Pb(NO3)2",
+    "name": "Lead(II) Nitrate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Toxic"
+  },
+  {
+    "formula": "KI",
+    "name": "Potassium Iodide",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "Na2CO3",
+    "name": "Sodium Carbonate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "NaHCO3",
+    "name": "Sodium Bicarbonate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "KMnO4",
+    "name": "Potassium Permanganate",
+    "state": "aqueous",
+    "class": "oxidizer",
+    "hazard": "Oxidizer, Stains"
+  },
+  {
+    "formula": "K2Cr2O7",
+    "name": "Potassium Dichromate",
+    "state": "aqueous",
+    "class": "oxidizer",
+    "hazard": "Toxic, Carcinogen"
+  },
+  {
+    "formula": "H2O2",
+    "name": "Hydrogen Peroxide",
+    "state": "aqueous",
+    "class": "oxidizer",
+    "hazard": "Oxidizer"
+  },
+  {
+    "formula": "Zn",
+    "name": "Zinc Metal (granules)",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "Flammable dust"
+  },
+  {
+    "formula": "Mg",
+    "name": "Magnesium Ribbon",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "Flammable"
+  },
+  {
+    "formula": "Fe",
+    "name": "Iron Filings",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "None"
+  },
+  {
+    "formula": "Cu",
+    "name": "Copper Turnings",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "None"
+  },
+  {
+    "formula": "Na",
+    "name": "Sodium Metal",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "Reacts violently with water"
+  },
+  {
+    "formula": "CaCO3",
+    "name": "Calcium Carbonate (Marble Chips)",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "CH4",
+    "name": "Methane Gas",
+    "state": "gas",
+    "class": "fuel",
+    "hazard": "Flammable"
+  },
+  {
+    "formula": "C2H5OH",
+    "name": "Ethanol",
+    "state": "liquid",
+    "class": "fuel",
+    "hazard": "Flammable"
+  },
+  {
+    "formula": "O2",
+    "name": "Oxygen Gas",
+    "state": "gas",
+    "class": "oxidizer",
+    "hazard": "Supports combustion"
+  },
+  {
+    "formula": "H2O",
+    "name": "Distilled Water",
+    "state": "liquid",
+    "class": "solvent",
+    "hazard": "None"
+  },
+  {
+    "formula": "H3PO4",
+    "name": "Phosphoric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "HF",
+    "name": "Hydrofluoric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Extremely corrosive, toxic"
+  },
+  {
+    "formula": "HBr",
+    "name": "Hydrobromic Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "NH4OH",
+    "name": "Ammonium Hydroxide",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "H2CO3",
+    "name": "Carbonic Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Mild irritant"
+  },
+  {
+    "formula": "Ba(OH)2",
+    "name": "Barium Hydroxide",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Toxic, corrosive"
+  },
+  {
+    "formula": "Mg(OH)2",
+    "name": "Magnesium Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "C3H8",
+    "name": "Propane Gas",
+    "state": "gas",
+    "class": "fuel",
+    "hazard": "Flammable"
+  },
+  {
+    "formula": "H2",
+    "name": "Hydrogen Gas",
+    "state": "gas",
+    "class": "fuel",
+    "hazard": "Highly flammable"
+  },
+  {
+    "formula": "CO",
+    "name": "Carbon Monoxide",
+    "state": "gas",
+    "class": "fuel",
+    "hazard": "Toxic, flammable"
+  },
+  {
+    "formula": "C",
+    "name": "Carbon (Graphite/Charcoal)",
+    "state": "solid",
+    "class": "fuel",
+    "hazard": "Combustible dust"
+  },
+  {
+    "formula": "S",
+    "name": "Sulfur (powder)",
+    "state": "solid",
+    "class": "nonmetal",
+    "hazard": "Flammable dust"
+  },
+  {
+    "formula": "SO2",
+    "name": "Sulfur Dioxide",
+    "state": "gas",
+    "class": "oxide",
+    "hazard": "Toxic, corrosive"
+  },
+  {
+    "formula": "SO3",
+    "name": "Sulfur Trioxide",
+    "state": "gas",
+    "class": "oxide",
+    "hazard": "Highly corrosive"
+  },
+  {
+    "formula": "P4",
+    "name": "White Phosphorus",
+    "state": "solid",
+    "class": "nonmetal",
+    "hazard": "Pyrophoric, toxic"
+  },
+  {
+    "formula": "CuO",
+    "name": "Copper(II) Oxide",
+    "state": "solid",
+    "class": "oxide",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "MnO2",
+    "name": "Manganese Dioxide",
+    "state": "solid",
+    "class": "oxide",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Cl2",
+    "name": "Chlorine Gas",
+    "state": "gas",
+    "class": "halogen",
+    "hazard": "Toxic, corrosive"
+  },
+  {
+    "formula": "FeCl2",
+    "name": "Iron(II) Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Fe2O3",
+    "name": "Iron(III) Oxide (Rust)",
+    "state": "solid",
+    "class": "oxide",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "KBr",
+    "name": "Potassium Bromide",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "CaCl2",
+    "name": "Calcium Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "MgCl2",
+    "name": "Magnesium Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "ZnSO4",
+    "name": "Zinc Sulfate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "NH4Cl",
+    "name": "Ammonium Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Na2SO3",
+    "name": "Sodium Sulfite",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Na2S",
+    "name": "Sodium Sulfide",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Corrosive, toxic gas risk"
+  },
+  {
+    "formula": "KClO3",
+    "name": "Potassium Chlorate",
+    "state": "solid",
+    "class": "oxidizer",
+    "hazard": "Strong oxidizer"
+  },
+  {
+    "formula": "C2H4",
+    "name": "Ethene (Ethylene) Gas",
+    "state": "gas",
+    "class": "fuel",
+    "hazard": "Flammable"
+  },
+  {
+    "formula": "C6H12O6",
+    "name": "Glucose",
+    "state": "aqueous",
+    "class": "organic",
+    "hazard": "None"
+  },
+  {
+    "formula": "CH3COOC2H5",
+    "name": "Ethyl Acetate",
+    "state": "liquid",
+    "class": "organic",
+    "hazard": "Flammable"
+  },
+  {
+    "formula": "ZnCl2",
+    "name": "Zinc Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Au",
+    "name": "Gold (metal)",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "None"
+  },
+  {
+    "formula": "Al",
+    "name": "Aluminium Metal",
+    "state": "solid",
+    "class": "metal",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "NaBr",
+    "name": "Sodium Bromide",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "AlCl3",
+    "name": "Aluminium Chloride",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "Al2(SO4)3",
+    "name": "Aluminium Sulfate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "BaCO3",
+    "name": "Barium Carbonate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Toxic"
+  },
+  {
+    "formula": "PbSO4",
+    "name": "Lead(II) Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Toxic"
+  },
+  {
+    "formula": "Ag2CO3",
+    "name": "Silver Carbonate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Light-sensitive"
+  },
+  {
+    "formula": "FeSO4",
+    "name": "Iron(II) Sulfate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "Fe(OH)2",
+    "name": "Iron(II) Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "Low hazard"
+  },
+  {
+    "formula": "NaNO3",
+    "name": "Sodium Nitrate",
+    "state": "aqueous",
+    "class": "salt",
+    "hazard": "Oxidizer"
+  },
+  {
+    "formula": "H2O",
+    "name": "Water",
+    "state": "liquid",
+    "class": "neutral",
+    "hazard": "None"
+  },
+  {
+    "formula": "NaCl",
+    "name": "Sodium Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "K2SO4",
+    "name": "Potassium Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "AgCl",
+    "name": "Silver Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "NaNO3",
+    "name": "Sodium Nitrate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Oxidizer"
+  },
+  {
+    "formula": "BaSO4",
+    "name": "Barium Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "PbI2",
+    "name": "Lead(II) Iodide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Toxic, Health Hazard"
+  },
+  {
+    "formula": "KNO3",
+    "name": "Potassium Nitrate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Oxidizer"
+  },
+  {
+    "formula": "ZnCl2",
+    "name": "Zinc Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Corrosive, Environmental"
+  },
+  {
+    "formula": "H2",
+    "name": "Hydrogen Gas",
+    "state": "gas",
+    "class": "element",
+    "hazard": "Flammable Gas"
+  },
+  {
+    "formula": "FeSO4",
+    "name": "Iron(II) Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Harmful, Irritant"
+  },
+  {
+    "formula": "Cu(NO3)2",
+    "name": "Copper(II) Nitrate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Oxidizer, Corrosive"
+  },
+  {
+    "formula": "Ag",
+    "name": "Silver Metal",
+    "state": "solid",
+    "class": "element",
+    "hazard": "None"
+  },
+  {
+    "formula": "O2",
+    "name": "Oxygen Gas",
+    "state": "gas",
+    "class": "element",
+    "hazard": "Oxidizing Gas"
+  },
+  {
+    "formula": "CO2",
+    "name": "Carbon Dioxide",
+    "state": "gas",
+    "class": "oxide",
+    "hazard": "Compressed Gas"
+  },
+  {
+    "formula": "C2H5OH",
+    "name": "Ethanol",
+    "state": "liquid",
+    "class": "alcohol",
+    "hazard": "Flammable Liquid"
+  },
+  {
+    "formula": "MgO",
+    "name": "Magnesium Oxide",
+    "state": "solid",
+    "class": "basic oxide",
+    "hazard": "None"
+  },
+  {
+    "formula": "MnSO4",
+    "name": "Manganese Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Health Hazard, Environmental"
+  },
+  {
+    "formula": "Cr2(SO4)3",
+    "name": "Chromium(III) Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "CH3CHO",
+    "name": "Acetaldehyde",
+    "state": "liquid",
+    "class": "aldehyde",
+    "hazard": "Flammable Liquid, Carcinogen"
+  },
+  {
+    "formula": "CaCl2",
+    "name": "Calcium Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "CH3COONa",
+    "name": "Sodium Acetate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "Au",
+    "name": "Gold Metal",
+    "state": "solid",
+    "class": "element",
+    "hazard": "None"
+  },
+  {
+    "formula": "KCl",
+    "name": "Potassium Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "H3PO4",
+    "name": "Phosphoric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "Na3PO4",
+    "name": "Sodium Phosphate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "HF",
+    "name": "Hydrofluoric Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Fatal Toxic, Corrosive"
+  },
+  {
+    "formula": "NaF",
+    "name": "Sodium Fluoride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Toxic, Irritant"
+  },
+  {
+    "formula": "HBr",
+    "name": "Hydrobromic Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "KBr",
+    "name": "Potassium Bromide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "NH4OH",
+    "name": "Ammonium Hydroxide",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Corrosive, Environmental"
+  },
+  {
+    "formula": "NH4Cl",
+    "name": "Ammonium Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Harmful, Irritant"
+  },
+  {
+    "formula": "H2CO3",
+    "name": "Carbonic Acid",
+    "state": "aqueous",
+    "class": "acid",
+    "hazard": "None"
+  },
+  {
+    "formula": "Ba(OH)2",
+    "name": "Barium Hydroxide",
+    "state": "aqueous",
+    "class": "base",
+    "hazard": "Corrosive, Toxic"
+  },
+  {
+    "formula": "Mg(OH)2",
+    "name": "Magnesium Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "None"
+  },
+  {
+    "formula": "MgCl2",
+    "name": "Magnesium Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "C3H8",
+    "name": "Propane",
+    "state": "gas",
+    "class": "alkane",
+    "hazard": "Flammable Gas"
+  },
+  {
+    "formula": "CO",
+    "name": "Carbon Monoxide",
+    "state": "gas",
+    "class": "oxide",
+    "hazard": "Flammable Gas, Toxic"
+  },
+  {
+    "formula": "C",
+    "name": "Carbon",
+    "state": "solid",
+    "class": "element",
+    "hazard": "Flammable Solid"
+  },
+  {
+    "formula": "Fe2O3",
+    "name": "Iron(III) Oxide",
+    "state": "solid",
+    "class": "oxide",
+    "hazard": "None"
+  },
+  {
+    "formula": "S",
+    "name": "Sulfur",
+    "state": "solid",
+    "class": "element",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "SO2",
+    "name": "Sulfur Dioxide",
+    "state": "gas",
+    "class": "acidic oxide",
+    "hazard": "Toxic, Corrosive"
+  },
+  {
+    "formula": "SO3",
+    "name": "Sulfur Trioxide",
+    "state": "gas",
+    "class": "acidic oxide",
+    "hazard": "Corrosive, Toxic"
+  },
+  {
+    "formula": "P4",
+    "name": "Phosphorus",
+    "state": "solid",
+    "class": "element",
+    "hazard": "Pyrophoric, Toxic"
+  },
+  {
+    "formula": "P4O10",
+    "name": "Phosphorus Pentoxide",
+    "state": "solid",
+    "class": "acidic oxide",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "CuO",
+    "name": "Copper(II) Oxide",
+    "state": "solid",
+    "class": "basic oxide",
+    "hazard": "Harmful, Environmental"
+  },
+  {
+    "formula": "MnO2",
+    "name": "Manganese Dioxide",
+    "state": "solid",
+    "class": "oxide",
+    "hazard": "Harmful"
+  },
+  {
+    "formula": "MnCl2",
+    "name": "Manganese(II) Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Toxic, Environmental"
+  },
+  {
+    "formula": "Cl2",
+    "name": "Chlorine Gas",
+    "state": "gas",
+    "class": "element",
+    "hazard": "Toxic, Corrosive, Environmental"
+  },
+  {
+    "formula": "FeCl2",
+    "name": "Iron(II) Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Corrosive, Harmful"
+  },
+  {
+    "formula": "I2",
+    "name": "Iodine",
+    "state": "solid",
+    "class": "element",
+    "hazard": "Harmful, Environmental"
+  },
+  {
+    "formula": "Cu(OH)2",
+    "name": "Copper(II) Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "Harmful, Environmental"
+  },
+  {
+    "formula": "Fe(OH)3",
+    "name": "Iron(III) Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "None"
+  },
+  {
+    "formula": "AgBr",
+    "name": "Silver Bromide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "AgI",
+    "name": "Silver Iodide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Environmental"
+  },
+  {
+    "formula": "Zn(OH)2",
+    "name": "Zinc Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "Irritant, Environmental"
+  },
+  {
+    "formula": "Na2S",
+    "name": "Sodium Sulfide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Corrosive, Environmental"
+  },
+  {
+    "formula": "NH3",
+    "name": "Ammonia Gas",
+    "state": "gas",
+    "class": "base",
+    "hazard": "Toxic, Corrosive"
+  },
+  {
+    "formula": "Na2SO3",
+    "name": "Sodium Sulfite",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "KClO3",
+    "name": "Potassium Chlorate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Oxidizer, Toxic"
+  },
+  {
+    "formula": "CH3COOC2H5",
+    "name": "Ethyl Acetate",
+    "state": "liquid",
+    "class": "ester",
+    "hazard": "Flammable Liquid, Irritant"
+  },
+  {
+    "formula": "C6H12O6",
+    "name": "Glucose",
+    "state": "solid",
+    "class": "carbohydrate",
+    "hazard": "None"
+  },
+  {
+    "formula": "C2H4",
+    "name": "Ethene",
+    "state": "gas",
+    "class": "alkene",
+    "hazard": "Flammable Gas"
+  },
+  {
+    "formula": "C2H6",
+    "name": "Ethane",
+    "state": "gas",
+    "class": "alkane",
+    "hazard": "Flammable Gas"
+  },
+  {
+    "formula": "CH3Cl",
+    "name": "Chloromethane",
+    "state": "gas",
+    "class": "haloalkane",
+    "hazard": "Flammable Gas, Health Hazard"
+  },
+  {
+    "formula": "Polyethylene",
+    "name": "Polyethylene",
+    "state": "solid",
+    "class": "polymer",
+    "hazard": "None"
+  },
+  {
+    "formula": "Al",
+    "name": "Aluminum Metal",
+    "state": "solid",
+    "class": "element",
+    "hazard": "None"
+  },
+  {
+    "formula": "AlCl3",
+    "name": "Aluminum Chloride",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Corrosive"
+  },
+  {
+    "formula": "FeS",
+    "name": "Iron(II) Sulfide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Harmful"
+  },
+  {
+    "formula": "CaO",
+    "name": "Calcium Oxide",
+    "state": "solid",
+    "class": "basic oxide",
+    "hazard": "Corrosive, Irritant"
+  },
+  {
+    "formula": "NO",
+    "name": "Nitric Oxide",
+    "state": "gas",
+    "class": "oxide",
+    "hazard": "Toxic, Corrosive, Oxidizer"
+  },
+  {
+    "formula": "NO2",
+    "name": "Nitrogen Dioxide",
+    "state": "gas",
+    "class": "oxide",
+    "hazard": "Toxic, Corrosive, Oxidizer"
+  },
+  {
+    "formula": "N2",
+    "name": "Nitrogen Gas",
+    "state": "gas",
+    "class": "element",
+    "hazard": "Compressed Gas"
+  },
+  {
+    "formula": "MgSO4",
+    "name": "Magnesium Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "Al2(SO4)3",
+    "name": "Aluminum Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant"
+  },
+  {
+    "formula": "NaBr",
+    "name": "Sodium Bromide",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "None"
+  },
+  {
+    "formula": "Br2",
+    "name": "Bromine",
+    "state": "liquid",
+    "class": "element",
+    "hazard": "Very Toxic, Corrosive, Environmental"
+  },
+  {
+    "formula": "BaCO3",
+    "name": "Barium Carbonate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Harmful, Toxic"
+  },
+  {
+    "formula": "PbSO4",
+    "name": "Lead(II) Sulfate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Toxic, Environmental"
+  },
+  {
+    "formula": "Ag2CO3",
+    "name": "Silver Carbonate",
+    "state": "solid",
+    "class": "salt",
+    "hazard": "Irritant, Environmental"
+  },
+  {
+    "formula": "Fe(OH)2",
+    "name": "Iron(II) Hydroxide",
+    "state": "solid",
+    "class": "base",
+    "hazard": "Harmful"
+  },
+  {
+    "formula": "[Cu(NH3)4]SO4",
+    "name": "Tetraamminecopper(II) Sulfate",
+    "state": "aqueous",
+    "class": "complex salt",
+    "hazard": "Harmful, Environmental"
+  }
+]

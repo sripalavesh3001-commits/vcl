@@ -1,0 +1,265 @@
+[
+  {
+    "id": "exp-titration",
+    "title": "Acid-Base Titration: Standardizing NaOH against HCl",
+    "category": "Quantitative Analysis",
+    "aim": "To determine the exact concentration of a sodium hydroxide solution by titrating it against a standard hydrochloric acid solution using phenolphthalein indicator.",
+    "theory": "Titration is a volumetric technique in which a solution of known concentration (the titrant) is added to a solution of unknown concentration until the reaction between them is complete, signaled by an indicator's color change at the equivalence point. For a strong acid-strong base titration, the equivalence point occurs at pH 7, and phenolphthalein (colorless in acid, pink in base) changes color sharply at this point.",
+    "principle": "At the equivalence point, moles of H+ supplied equal moles of OH- supplied: M(acid) x V(acid) = M(base) x V(base) for a 1:1 reaction.",
+    "apparatus": ["Burette (50 mL)", "Pipette (25 mL)", "Conical flask", "Burette stand and clamp", "White tile", "Beakers", "Funnel"],
+    "chemicals": ["Standard 0.1 M HCl", "NaOH solution of unknown concentration", "Phenolphthalein indicator", "Distilled water"],
+    "procedure": [
+      "Rinse the burette with distilled water, then with a small amount of the HCl solution, and fill it with standard HCl. Note the initial reading.",
+      "Using a pipette, transfer exactly 25.0 mL of the NaOH solution into a clean conical flask.",
+      "Add 2-3 drops of phenolphthalein indicator to the flask; the solution turns pink.",
+      "Place the flask on a white tile under the burette and slowly add HCl while continuously swirling the flask.",
+      "As the pink color begins to fade more slowly, add the acid dropwise until one drop causes the solution to turn permanently colorless.",
+      "Record the final burette reading and calculate the volume of acid used (titre value).",
+      "Repeat the titration two more times until two consecutive readings agree within 0.1 mL (concordant readings)."
+    ],
+    "precautions": [
+      "Always read the burette at eye level to avoid parallax error.",
+      "Add titrant dropwise near the expected endpoint.",
+      "Rinse apparatus with the solution it will hold, not just water.",
+      "Do not touch the tip of the pipette to the flask walls while dispensing."
+    ],
+    "observation": "The solution changes from pink to colorless at the endpoint, indicating complete neutralization of the base by the acid.",
+    "calculation": "Using M(acid) x V(acid) = M(base) x V(base): if 0.1 M HCl requires an average titre of 22.5 mL to neutralize 25.0 mL of NaOH, then M(base) = (0.1 x 22.5) / 25.0 = 0.09 M.",
+    "result": "The concentration of the given sodium hydroxide solution is determined and expressed in mol/L.",
+    "vivaQuestions": [
+      "Why is phenolphthalein preferred over methyl orange for a strong acid-strong base titration?",
+      "What is meant by the equivalence point versus the endpoint of a titration?",
+      "Why must the burette be rinsed with the titrant before use?",
+      "What error would result from an air bubble trapped in the burette tip?"
+    ],
+    "mcqs": [
+      { "question": "Phenolphthalein is colorless in:", "options": ["Acidic solution", "Basic solution", "Neutral solution", "All solutions"], "answer": 0 },
+      { "question": "At the equivalence point of a strong acid-strong base titration, the pH is approximately:", "options": ["3", "5", "7", "10"], "answer": 2 },
+      { "question": "The formula used to calculate unknown concentration in a 1:1 titration is:", "options": ["M1V1 = M2V2", "M1+V1 = M2+V2", "M1/V1 = M2/V2", "M1V2 = M2V1"], "answer": 0 }
+    ]
+  },
+  {
+    "id": "exp-flame-test",
+    "title": "Flame Test for Cation Identification",
+    "category": "Qualitative Analysis",
+    "aim": "To identify metal cations present in a sample by observing the characteristic color they impart to a flame.",
+    "theory": "When a metal salt is heated in a flame, electrons absorb energy and are excited to higher energy levels. As they fall back to the ground state, they emit energy as light of a specific wavelength, giving each metal a distinctive flame color.",
+    "principle": "Each element has a unique set of energy levels, so the emitted wavelength (and therefore color) acts as a fingerprint for that element.",
+    "apparatus": ["Nichrome/platinum wire loop", "Bunsen burner", "Watch glass", "Concentrated HCl in a small beaker"],
+    "chemicals": ["Sodium chloride", "Potassium chloride", "Calcium chloride", "Copper(II) chloride", "Strontium chloride", "Concentrated HCl"],
+    "procedure": [
+      "Clean the nichrome wire by dipping it in concentrated HCl and holding it in the hottest part of the Bunsen flame until no color is imparted.",
+      "Dip the clean wire loop into the HCl, then into the solid sample to be tested so a small amount adheres.",
+      "Hold the loop in the outer (hottest, blue) part of the flame and observe the flame color.",
+      "Record the color and repeat with the next sample after cleaning the wire.",
+      "Compare observed colors to a reference chart to identify the cation."
+    ],
+    "precautions": [
+      "Clean the wire thoroughly between tests to avoid contamination.",
+      "Do not look directly into a very bright flame for extended periods.",
+      "Handle concentrated HCl with gloves and in a ventilated area."
+    ],
+    "observation": "Sodium gives a persistent bright yellow flame; potassium gives a lilac flame (best viewed through blue cobalt glass); calcium gives brick-red; copper gives blue-green; strontium gives crimson red.",
+    "calculation": "Not applicable \u2014 this is a qualitative identification test.",
+    "result": "The metal cation in the unknown sample is identified by matching its flame color to the reference chart.",
+    "vivaQuestions": [
+      "Why does each metal give a different flame color?",
+      "Why is the wire cleaned with concentrated HCl rather than water?",
+      "Why is potassium's flame test often viewed through blue cobalt glass?",
+      "Name two anions that cannot be identified using the flame test and explain why."
+    ],
+    "mcqs": [
+      { "question": "Sodium imparts which color to a flame?", "options": ["Lilac", "Bright yellow", "Brick red", "Blue-green"], "answer": 1 },
+      { "question": "The flame test relies on which physical phenomenon?", "options": ["Radioactive decay", "Electron excitation and emission", "Nuclear fusion", "Chemical bonding energy"], "answer": 1 },
+      { "question": "Copper salts typically produce a flame of color:", "options": ["Crimson red", "Blue-green", "Golden yellow", "Violet"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "exp-electrolysis",
+    "title": "Electrolysis of Water (Hofmann Voltameter)",
+    "category": "Electrochemistry",
+    "aim": "To demonstrate the decomposition of water into hydrogen and oxygen gas by electrolysis and to verify their 2:1 volume ratio.",
+    "theory": "Electrolysis uses electrical energy to drive a non-spontaneous chemical reaction. In water electrolysis, an applied direct current forces water molecules to split at inert electrodes: reduction occurs at the cathode producing hydrogen gas, and oxidation occurs at the anode producing oxygen gas.",
+    "principle": "Faraday's laws of electrolysis relate the amount of substance liberated at an electrode to the quantity of electric charge passed; for water, twice as many moles of H2 form as O2 because of the 2:1 stoichiometry.",
+    "apparatus": ["Hofmann voltameter or two test tubes with inert electrodes", "DC power supply", "Connecting wires", "Wooden splint"],
+    "chemicals": ["Dilute sulfuric acid or sodium sulfate solution (electrolyte)", "Distilled water"],
+    "procedure": [
+      "Fill the voltameter with dilute electrolyte solution, ensuring no air bubbles remain in the side tubes.",
+      "Connect the electrodes to the DC power supply, cathode to negative terminal and anode to positive terminal.",
+      "Switch on the current and observe gas collecting at both electrodes.",
+      "Note the volume of gas collected at each electrode over the same time period.",
+      "Test the gas at the cathode with a glowing/lit splint (a 'pop' sound confirms hydrogen).",
+      "Test the gas at the anode with a glowing splint (relighting confirms oxygen)."
+    ],
+    "precautions": [
+      "Do not use bare hands near the electrodes while current is flowing.",
+      "Test hydrogen gas away from the main gas reservoir to avoid ignition of collected gas.",
+      "Use a low, safe voltage DC supply."
+    ],
+    "observation": "Gas collects twice as fast at the cathode as at the anode; the cathode gas gives a pop with a lit splint (hydrogen) and the anode gas relights a glowing splint (oxygen).",
+    "calculation": "Volume ratio of gas at cathode to anode is measured and should approximate 2:1, consistent with 2H2O \u2192 2H2 + O2.",
+    "result": "Water is confirmed to decompose into hydrogen and oxygen gas in a 2:1 volume ratio under electrolysis.",
+    "vivaQuestions": [
+      "Why is a small amount of electrolyte added to pure water before electrolysis?",
+      "Which electrode does hydrogen collect at, and why?",
+      "What test distinguishes hydrogen gas from oxygen gas?",
+      "State Faraday's first law of electrolysis."
+    ],
+    "mcqs": [
+      { "question": "Hydrogen gas is collected at the:", "options": ["Anode", "Cathode", "Both equally", "Neither"], "answer": 1 },
+      { "question": "The volume ratio of H2 to O2 produced is:", "options": ["1:1", "1:2", "2:1", "3:1"], "answer": 2 },
+      { "question": "A glowing splint relighting indicates the presence of:", "options": ["Hydrogen", "Oxygen", "Carbon dioxide", "Nitrogen"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "exp-distillation",
+    "title": "Simple Distillation: Separating a Salt-Water Mixture",
+    "category": "Separation Techniques",
+    "aim": "To separate pure water from a salt solution using simple distillation.",
+    "theory": "Distillation separates components of a mixture based on differences in boiling point. Water has a much lower boiling point than dissolved solids like sodium chloride, so heating the mixture vaporizes only the water, which is then condensed and collected separately, leaving the salt behind.",
+    "principle": "A liquid boils when its vapor pressure equals atmospheric pressure; a dissolved non-volatile solute (like NaCl) does not vaporize, so only the solvent distills over.",
+    "apparatus": ["Distillation flask", "Condenser", "Receiver flask", "Bunsen burner or heating mantle", "Thermometer", "Retort stand and clamps", "Delivery tube"],
+    "chemicals": ["Saturated sodium chloride solution"],
+    "procedure": [
+      "Assemble the distillation apparatus: distillation flask connected to a condenser leading to a receiver flask, with a thermometer bulb positioned at the side-arm outlet.",
+      "Pour the salt solution into the distillation flask, filling no more than two-thirds full, and add anti-bumping granules.",
+      "Heat the flask gently and steadily; observe the thermometer reading as vapor rises.",
+      "Once the temperature stabilizes near 100 degC, collect the condensed liquid (distillate) in the receiver flask.",
+      "Continue until most of the water has distilled over, then stop heating before the flask runs dry.",
+      "Test the distillate (should not react with silver nitrate) and the residue (should give a white precipitate with AgNO3, confirming chloride)."
+    ],
+    "precautions": [
+      "Never let the distillation flask boil dry, as it can crack.",
+      "Add anti-bumping granules to prevent sudden violent boiling.",
+      "Ensure the thermometer bulb sits at the level of the side-arm, not in the liquid."
+    ],
+    "observation": "The temperature stabilizes near the boiling point of water while distillate collects; the residue left in the flask becomes increasingly concentrated brine.",
+    "calculation": "Not applicable \u2014 this is a qualitative separation experiment, though percent recovery of water can be calculated from mass before and after.",
+    "result": "Pure water is successfully separated from the salt solution by simple distillation, confirmed by a negative AgNO3 test on the distillate.",
+    "vivaQuestions": [
+      "Why is the thermometer bulb positioned at the side-arm rather than in the liquid?",
+      "What is the purpose of anti-bumping granules?",
+      "Why can simple distillation not separate two miscible liquids with close boiling points?",
+      "How would you confirm the distillate is pure water?"
+    ],
+    "mcqs": [
+      { "question": "Distillation separates mixtures based on differences in:", "options": ["Color", "Boiling point", "Density only", "Solubility in acid"], "answer": 1 },
+      { "question": "Anti-bumping granules are added to:", "options": ["Increase the boiling point", "Ensure smooth, even boiling", "React with the salt", "Cool the flask"], "answer": 1 },
+      { "question": "The distillate from salt water should give what result with AgNO3?", "options": ["White precipitate", "No precipitate", "Yellow precipitate", "Blue color"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "exp-chromatography",
+    "title": "Paper Chromatography of Plant Pigments / Ink Dyes",
+    "category": "Separation Techniques",
+    "aim": "To separate the components of a mixture (such as ink or plant pigment extract) using paper chromatography and calculate their Rf values.",
+    "theory": "Paper chromatography separates a mixture based on differential affinity of its components for a stationary phase (paper/cellulose) versus a mobile phase (solvent). Components that are more soluble in the solvent travel further up the paper.",
+    "principle": "The retardation factor, Rf = distance traveled by the substance / distance traveled by the solvent front, is characteristic for a given compound and solvent system, allowing identification.",
+    "apparatus": ["Chromatography paper strip", "Developing chamber (beaker with lid)", "Capillary tube", "Pencil", "Ruler"],
+    "chemicals": ["Water-soluble ink or plant pigment extract", "Suitable solvent (e.g., water or water-ethanol mixture)"],
+    "procedure": [
+      "Draw a light pencil line about 2 cm from the bottom of the chromatography paper.",
+      "Using a capillary tube, place a small, concentrated spot of the sample on the pencil line and allow it to dry.",
+      "Pour a shallow layer of solvent into the developing chamber, keeping the depth below the pencil line level.",
+      "Suspend the paper in the chamber so the bottom edge touches the solvent but the sample spot stays above the liquid surface, then cover the chamber.",
+      "Allow the solvent to rise up the paper by capillary action until it nears the top, then remove the paper and immediately mark the solvent front.",
+      "Allow the paper to dry and measure the distance traveled by each separated component and by the solvent front.",
+      "Calculate the Rf value for each spot."
+    ],
+    "precautions": [
+      "Keep the original sample spot above the solvent level to avoid it dissolving directly into the solvent.",
+      "Keep the developing chamber covered to maintain a saturated solvent-vapor atmosphere.",
+      "Mark the solvent front immediately upon removing the paper, before it evaporates further."
+    ],
+    "observation": "The mixture separates into distinct colored spots that travel different distances up the paper depending on their solubility and affinity for the paper.",
+    "calculation": "Rf = distance traveled by component / distance traveled by solvent front. For example, if a pigment travels 4.2 cm and the solvent front travels 6.0 cm, Rf = 4.2 / 6.0 = 0.70.",
+    "result": "The individual components of the mixture are separated and characterized by their respective Rf values, which can be compared to known references for identification.",
+    "vivaQuestions": [
+      "Why must the sample spot be kept above the solvent level initially?",
+      "What factors affect the Rf value of a compound?",
+      "Why is the chamber kept covered during development?",
+      "How could you use chromatography to test the purity of a substance?"
+    ],
+    "mcqs": [
+      { "question": "Rf stands for:", "options": ["Rate of flow", "Retardation factor", "Reflection factor", "Reaction frequency"], "answer": 1 },
+      { "question": "Rf values are always:", "options": ["Greater than 1", "Between 0 and 1", "Negative", "Equal to 1"], "answer": 1 },
+      { "question": "The stationary phase in paper chromatography is:", "options": ["The solvent", "The paper (cellulose)", "The sample", "The developing chamber"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "exp-water-hardness",
+    "title": "Determination of Water Hardness by EDTA Titration",
+    "category": "Quantitative Analysis",
+    "aim": "To determine the total hardness of a given water sample by complexometric titration with EDTA.",
+    "theory": "Water hardness is caused mainly by dissolved calcium and magnesium ions. EDTA (ethylenediaminetetraacetic acid) forms stable 1:1 chelate complexes with these ions. Using Eriochrome Black T indicator, which changes from wine-red (bound to Ca2+/Mg2+) to blue (free) at the endpoint, the total hardness can be quantified.",
+    "principle": "At the endpoint, all free Ca2+ and Mg2+ ions have been complexed by EDTA, so moles of EDTA added equal moles of total hardness-causing ions.",
+    "apparatus": ["Burette", "Pipette", "Conical flask", "Burette stand"],
+    "chemicals": ["Standard 0.01 M EDTA solution", "Ammonia buffer solution (pH 10)", "Eriochrome Black T indicator", "Water sample"],
+    "procedure": [
+      "Pipette 50 mL of the water sample into a conical flask.",
+      "Add 2 mL of ammonia buffer solution to maintain pH around 10.",
+      "Add a few drops of Eriochrome Black T indicator; the solution turns wine-red if hardness ions are present.",
+      "Titrate with standard EDTA solution from the burette, swirling constantly, until the color changes sharply from wine-red to blue.",
+      "Record the volume of EDTA used and repeat for concordant readings.",
+      "Calculate total hardness as mg/L of CaCO3 equivalent."
+    ],
+    "precautions": [
+      "Maintain the correct pH using buffer, as the indicator only works correctly around pH 10.",
+      "Titrate slowly near the endpoint since the color change can be gradual.",
+      "Use fresh indicator solution as it can degrade over time."
+    ],
+    "observation": "The wine-red color of the metal-indicator complex changes sharply to pure blue at the endpoint, indicating all hardness ions have been complexed by EDTA.",
+    "calculation": "Total hardness (mg/L as CaCO3) = (Volume of EDTA x Molarity of EDTA x 100.09 x 1000) / Volume of water sample (mL). For example, 8.5 mL of 0.01 M EDTA for a 50 mL sample gives (8.5 x 0.01 x 100.09 x 1000)/50 = 170.2 mg/L as CaCO3.",
+    "result": "The total hardness of the given water sample is calculated and classified (soft, moderately hard, hard, or very hard) based on standard hardness scales.",
+    "vivaQuestions": [
+      "What ions primarily cause water hardness?",
+      "Why is a buffer solution added before titration?",
+      "Distinguish between temporary and permanent hardness.",
+      "Why is EDTA an especially effective titrant for metal ions?"
+    ],
+    "mcqs": [
+      { "question": "Water hardness is mainly due to which ions?", "options": ["Na+ and K+", "Ca2+ and Mg2+", "Cl- and SO4 2-", "Fe2+ and Cu2+"], "answer": 1 },
+      { "question": "Eriochrome Black T changes color from wine-red to:", "options": ["Yellow", "Green", "Blue", "Colorless"], "answer": 2 },
+      { "question": "Hardness is conventionally expressed as equivalent mg/L of:", "options": ["NaCl", "CaCO3", "MgSO4", "KOH"], "answer": 1 }
+    ]
+  },
+  {
+    "id": "exp-salt-analysis",
+    "title": "Qualitative Salt Analysis: Identifying an Unknown Inorganic Salt",
+    "category": "Qualitative Analysis",
+    "aim": "To identify the cation and anion present in a given unknown inorganic salt through systematic qualitative analysis.",
+    "theory": "Systematic salt analysis proceeds through preliminary physical tests, dry heating tests, flame tests, and specific confirmatory wet tests for anions (using dilute acid and specific reagents) and cations (using group reagents in a defined sequence), based on characteristic reactions and solubility rules.",
+    "principle": "Different ions give distinctive, reproducible reactions with specific reagents (color changes, precipitates, gas evolution), which together narrow down the identity of the salt.",
+    "apparatus": ["Test tubes", "Test tube stand", "Bunsen burner", "Nichrome wire", "Dropper", "Watch glass"],
+    "chemicals": ["Unknown salt sample", "Dilute HCl", "Dilute H2SO4", "BaCl2 solution", "AgNO3 solution", "NaOH solution", "NH4OH solution"],
+    "procedure": [
+      "Note the color, physical state, and smell of the salt as a preliminary observation.",
+      "Perform a dry heating test in a test tube and note any color change, gas evolved, or residue formed.",
+      "Perform anion tests: add dilute HCl or H2SO4 to a fresh sample and observe for effervescence (carbonate/bicarbonate) or characteristic gas smell (sulfide, sulfite).",
+      "Test for sulfate ion by adding BaCl2 solution to a solution of the salt (white precipitate insoluble in dilute HCl indicates sulfate).",
+      "Test for chloride ion by adding AgNO3 solution (white curdy precipitate soluble in ammonia indicates chloride).",
+      "For cation analysis, add NaOH solution dropwise to a solution of the salt and note any colored precipitate.",
+      "Confirm the cation with a flame test.",
+      "Combine all observations to deduce the formula of the unknown salt."
+    ],
+    "precautions": [
+      "Always perform tests on small portions of the sample, not the entire quantity.",
+      "Waft, do not directly inhale, any gases evolved during testing.",
+      "Use freshly prepared reagent solutions for reliable results."
+    ],
+    "observation": "Observations vary by salt; for example, a salt giving effervescence with dilute HCl and a white precipitate with BaCl2 insoluble in acid indicates a mixture inconsistency, so tests are interpreted together rather than in isolation.",
+    "calculation": "Not applicable \u2014 this is a qualitative identification exercise; results are tabulated as inference statements.",
+    "result": "The cation and anion present in the unknown salt are identified, and the most probable identity/formula of the salt is reported.",
+    "vivaQuestions": [
+      "Why is the dry heating test performed before wet tests?",
+      "What is a 'group reagent' in systematic qualitative analysis?",
+      "Why must anion tests generally be performed on the original solid, not after adding other reagents?",
+      "Give one confirmatory test each for carbonate and sulfate ions."
+    ],
+    "mcqs": [
+      { "question": "A white precipitate with AgNO3 that dissolves in ammonia confirms:", "options": ["Sulfate", "Chloride", "Carbonate", "Nitrate"], "answer": 1 },
+      { "question": "Effervescence with dilute HCl that turns limewater milky indicates:", "options": ["Sulfide", "Carbonate", "Chloride", "Nitrate"], "answer": 1 },
+      { "question": "A white precipitate with BaCl2 insoluble in dilute HCl confirms:", "options": ["Chloride", "Sulfate", "Carbonate", "Bromide"], "answer": 1 }
+    ]
+  }
+]

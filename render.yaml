@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: virtual-chemistry-lab
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5
+    disk:
+      name: chemlab-data
+      mountPath: /opt/render/project/db
+      sizeGB: 1

@@ -1,0 +1,4038 @@
+[
+  {
+    "id": "neut-1",
+    "reactants": [
+      "HCl",
+      "NaOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HCl + NaOH \u2192 NaCl + H2O",
+    "products": [
+      "NaCl",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Very fast (instantaneous ionic reaction)",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -57.3,
+    "thermicity": "Exothermic",
+    "observation": "Solution warms slightly; no color change; pH moves toward 7",
+    "mechanism": "H+ from the acid combines with OH- from the base to form water, releasing the sodium and chloride ions as spectator ions that form the salt.",
+    "industrialApplications": "Antacid formulation, wastewater pH correction, titration standardization",
+    "safety": "Both reagents are corrosive; wear goggles and gloves; add acid to base slowly",
+    "wasteDisposal": "Neutral saline solution can be diluted and disposed per local water regulations",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-2",
+    "reactants": [
+      "H2SO4",
+      "KOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "H2SO4 + 2 KOH \u2192 K2SO4 + 2 H2O",
+    "products": [
+      "K2SO4",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -114.0,
+    "thermicity": "Exothermic",
+    "observation": "Noticeable temperature rise; clear solution",
+    "mechanism": "Diprotic sulfuric acid donates two protons to two hydroxide ions, forming water and potassium sulfate.",
+    "industrialApplications": "Fertilizer production (potassium sulfate)",
+    "safety": "Highly corrosive acid and base; always add acid to water/base slowly",
+    "wasteDisposal": "Neutralize fully and dilute before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "precip-1",
+    "reactants": [
+      "AgNO3",
+      "NaCl"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "AgNO3 + NaCl \u2192 AgCl\u2193 + NaNO3",
+    "products": [
+      "AgCl",
+      "NaNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -65.5,
+    "thermicity": "Exothermic",
+    "observation": "Thick white curdy precipitate of silver chloride forms immediately, which darkens on exposure to light",
+    "mechanism": "Silver and chloride ions combine because AgCl has very low solubility, driving the ions out of solution as a solid.",
+    "industrialApplications": "Qualitative test for chloride ions; photographic film manufacturing",
+    "safety": "AgNO3 stains skin and is light sensitive; avoid skin contact",
+    "wasteDisposal": "Silver residues should be collected for silver recovery/recycling, not poured down the drain",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-2",
+    "reactants": [
+      "BaCl2",
+      "Na2SO4"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "BaCl2 + Na2SO4 \u2192 BaSO4\u2193 + 2 NaCl",
+    "products": [
+      "BaSO4",
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -18.0,
+    "thermicity": "Exothermic",
+    "observation": "Dense white precipitate of barium sulfate forms, insoluble even in acids",
+    "mechanism": "Barium and sulfate ions combine to form the extremely insoluble BaSO4 lattice.",
+    "industrialApplications": "Standard qualitative test for sulfate ions; BaSO4 used as an X-ray contrast agent",
+    "safety": "Soluble barium salts are toxic; avoid ingestion",
+    "wasteDisposal": "Filter and dispose of solid barium sulfate as inert solid waste per local rules",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-3",
+    "reactants": [
+      "Pb(NO3)2",
+      "KI"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "Pb(NO3)2 + 2 KI \u2192 PbI2\u2193 + 2 KNO3",
+    "products": [
+      "PbI2",
+      "KNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -23.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright yellow precipitate of lead iodide forms ('golden rain' effect when hot solution slowly cools)",
+    "mechanism": "Lead and iodide ions combine to form insoluble PbI2 crystals.",
+    "industrialApplications": "Classic demonstration reaction; historically used in yellow pigments",
+    "safety": "Lead compounds are toxic; avoid skin contact and ingestion",
+    "wasteDisposal": "Collect lead solids as hazardous waste; do not pour down drain",
+    "animation": [
+      "precipitate-formation",
+      "crystal-formation"
+    ]
+  },
+  {
+    "id": "disp-1",
+    "reactants": [
+      "Zn",
+      "HCl"
+    ],
+    "type": "Single Displacement / Redox",
+    "equation": "Zn + 2 HCl \u2192 ZnCl2 + H2\u2191",
+    "products": [
+      "ZnCl2",
+      "H2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Moderate; increases with acid concentration and temperature",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -153.9,
+    "thermicity": "Exothermic",
+    "observation": "Bubbles of hydrogen gas form on the zinc surface; the metal gradually dissolves; a lit splint gives a 'pop' test",
+    "mechanism": "Zinc metal is oxidized (loses electrons) to Zn2+ while H+ ions are reduced to H2 gas, an oxidation-reduction (redox) process.",
+    "industrialApplications": "Laboratory preparation of hydrogen gas; galvanizing chemistry",
+    "safety": "Hydrogen gas is flammable; keep away from open flame except for controlled pop-test",
+    "wasteDisposal": "Neutralize excess acid before disposal; ZnCl2 solution can be diluted",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "disp-2",
+    "reactants": [
+      "Fe",
+      "CuSO4"
+    ],
+    "type": "Single Displacement / Redox",
+    "equation": "Fe + CuSO4 \u2192 FeSO4 + Cu",
+    "products": [
+      "FeSO4",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": -152.4,
+    "thermicity": "Exothermic",
+    "observation": "Blue solution fades as reddish-brown copper metal deposits on the iron surface",
+    "mechanism": "Iron, being more reactive than copper, displaces Cu2+ from solution, being oxidized to Fe2+ while copper ions are reduced to copper metal.",
+    "industrialApplications": "Classic reactivity series demonstration; used in copper recovery from ore leachate",
+    "safety": "Low hazard; avoid ingestion of copper sulfate",
+    "wasteDisposal": "Dilute and dispose of FeSO4 solution per local regulations",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "disp-3",
+    "reactants": [
+      "Cu",
+      "AgNO3"
+    ],
+    "type": "Single Displacement / Redox",
+    "equation": "Cu + 2 AgNO3 \u2192 Cu(NO3)2 + 2 Ag",
+    "products": [
+      "Cu(NO3)2",
+      "Ag"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Slow to moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": -146.0,
+    "thermicity": "Exothermic",
+    "observation": "Silver crystals grow on the copper wire ('silver tree'); solution turns pale blue",
+    "mechanism": "Copper is more reactive than silver, so it is oxidized to Cu2+ while Ag+ ions are reduced to metallic silver.",
+    "industrialApplications": "Demonstrates the electrochemical series; silver recovery",
+    "safety": "AgNO3 stains skin and is light-sensitive",
+    "wasteDisposal": "Recover silver metal; dilute copper nitrate before disposal",
+    "animation": [
+      "crystal-formation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "combust-1",
+    "reactants": [
+      "CH4",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "CH4 + 2 O2 \u2192 CO2 + 2 H2O",
+    "products": [
+      "CO2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source (spark/flame) required",
+    "reactionRate": "Very fast once ignited",
+    "activationEnergy": "High (ignition energy required)",
+    "enthalpyChange": -890.3,
+    "thermicity": "Exothermic",
+    "observation": "Blue flame, heat and light released, water vapor condenses on cool surfaces",
+    "mechanism": "Methane is oxidized completely by oxygen through a radical chain mechanism, releasing carbon dioxide, water, and a large amount of energy.",
+    "industrialApplications": "Natural gas heating and power generation",
+    "safety": "Highly flammable gas; ensure good ventilation and no open ignition sources nearby when handling",
+    "wasteDisposal": "Combustion products are gaseous; ensure adequate ventilation/fume hood",
+    "animation": [
+      "flame",
+      "heat-effect",
+      "steam"
+    ]
+  },
+  {
+    "id": "combust-2",
+    "reactants": [
+      "C2H5OH",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "C2H5OH + 3 O2 \u2192 2 CO2 + 3 H2O",
+    "products": [
+      "CO2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source required",
+    "reactionRate": "Fast once ignited",
+    "activationEnergy": "High (ignition energy required)",
+    "enthalpyChange": -1366.8,
+    "thermicity": "Exothermic",
+    "observation": "Pale blue flame, minimal smoke, heat released",
+    "mechanism": "Ethanol undergoes complete combustion, breaking C-C, C-H and O-H bonds and forming new C=O and O-H bonds in the products.",
+    "industrialApplications": "Biofuel combustion, spirit lamps",
+    "safety": "Highly flammable liquid and vapor; keep away from flame sources when dispensing",
+    "wasteDisposal": "Combustion products are gaseous; ensure ventilation",
+    "animation": [
+      "flame",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "combust-3",
+    "reactants": [
+      "Mg",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "2 Mg + O2 \u2192 2 MgO",
+    "products": [
+      "MgO"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source (high heat) required",
+    "reactionRate": "Very fast once ignited",
+    "activationEnergy": "High",
+    "enthalpyChange": -1204.0,
+    "thermicity": "Exothermic",
+    "observation": "Intense white light and sparks; a white powdery ash (MgO) is left behind",
+    "mechanism": "Magnesium metal is oxidized to Mg2+ while oxygen is reduced to O2-, forming ionic magnesium oxide, releasing large amounts of energy as light and heat.",
+    "industrialApplications": "Flares, fireworks, historic photography flashes",
+    "safety": "Do NOT look directly at the flame \u2014 UV output can damage eyes; use safety glasses",
+    "wasteDisposal": "MgO ash is inert and can be disposed of as ordinary solid waste",
+    "animation": [
+      "sparks",
+      "flame",
+      "smoke"
+    ]
+  },
+  {
+    "id": "redox-1",
+    "reactants": [
+      "KMnO4",
+      "H2O2"
+    ],
+    "type": "Redox",
+    "equation": "2 KMnO4 + 5 H2O2 + 3 H2SO4 \u2192 2 MnSO4 + 5 O2\u2191 + K2SO4 + 8 H2O",
+    "products": [
+      "MnSO4",
+      "O2",
+      "K2SO4",
+      "H2O"
+    ],
+    "catalyst": "H2SO4 (acidic medium)",
+    "conditions": "Acidified aqueous solution, room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low to moderate",
+    "enthalpyChange": -196.0,
+    "thermicity": "Exothermic",
+    "observation": "Deep purple permanganate color fades to pale pink/colorless as oxygen gas bubbles vigorously",
+    "mechanism": "Permanganate (Mn7+) is reduced to Mn2+ while peroxide oxygen (O-1) is oxidized to O2, a classic redox titration reaction used to determine peroxide concentration.",
+    "industrialApplications": "Volumetric analysis of hydrogen peroxide concentration; water treatment",
+    "safety": "KMnO4 stains and is a strong oxidizer; H2O2 can cause skin burns at high concentration",
+    "wasteDisposal": "Dilute and neutralize before disposal; manganese salts should not be discharged untreated",
+    "animation": [
+      "color-change",
+      "bubble-animation"
+    ]
+  },
+  {
+    "id": "redox-2",
+    "reactants": [
+      "K2Cr2O7",
+      "H2SO4"
+    ],
+    "type": "Redox",
+    "equation": "K2Cr2O7 + 4 H2SO4 + 3 C2H5OH \u2192 Cr2(SO4)3 + K2SO4 + 3 CH3CHO + 7 H2O",
+    "products": [
+      "Cr2(SO4)3",
+      "K2SO4",
+      "CH3CHO",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Acidified, gentle heating",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -210.0,
+    "thermicity": "Exothermic",
+    "observation": "Orange dichromate solution turns green as Cr(VI) is reduced to Cr(III)",
+    "mechanism": "Dichromate ion oxidizes the alcohol to an aldehyde while chromium is reduced from +6 to +3 oxidation state, a color-change redox indicator reaction.",
+    "industrialApplications": "Classic breathalyzer chemistry; oxidation-state teaching demonstration",
+    "safety": "Dichromate is toxic and carcinogenic; handle with gloves in a fume hood",
+    "wasteDisposal": "Chromium waste must be collected separately as hazardous heavy-metal waste",
+    "animation": [
+      "color-change",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "gas-1",
+    "reactants": [
+      "CaCO3",
+      "HCl"
+    ],
+    "type": "Double Displacement / Gas Evolution",
+    "equation": "CaCO3 + 2 HCl \u2192 CaCl2 + H2O + CO2\u2191",
+    "products": [
+      "CaCl2",
+      "H2O",
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Moderate; faster with powdered chalk",
+    "activationEnergy": "Low",
+    "enthalpyChange": -17.9,
+    "thermicity": "Exothermic",
+    "observation": "Vigorous fizzing/effervescence as carbon dioxide gas is released; the marble chips dissolve",
+    "mechanism": "The carbonate ion reacts with hydrogen ions to form carbonic acid, which decomposes rapidly to water and carbon dioxide gas.",
+    "industrialApplications": "Descaling, antacid chemistry (calcium carbonate neutralizing stomach acid)",
+    "safety": "CO2 can displace oxygen in confined spaces; ensure ventilation",
+    "wasteDisposal": "Neutral solution can be diluted and disposed of down the drain with water",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution",
+      "foam"
+    ]
+  },
+  {
+    "id": "gas-2",
+    "reactants": [
+      "NaHCO3",
+      "CH3COOH"
+    ],
+    "type": "Acid-Base / Gas Evolution",
+    "equation": "NaHCO3 + CH3COOH \u2192 CH3COONa + H2O + CO2\u2191",
+    "products": [
+      "CH3COONa",
+      "H2O",
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -12.0,
+    "thermicity": "Slightly Endothermic",
+    "observation": "Rapid fizzing and foam as CO2 gas escapes (classic baking-soda-vinegar reaction)",
+    "mechanism": "Acetic acid donates a proton to bicarbonate, which decomposes into water and carbon dioxide.",
+    "industrialApplications": "Baking (leavening), classroom volcano demonstrations, fire extinguisher chemistry",
+    "safety": "Low hazard; safe classroom demonstration",
+    "wasteDisposal": "Non-hazardous; can be diluted and poured down the drain",
+    "animation": [
+      "foam",
+      "bubble-animation"
+    ]
+  },
+  {
+    "id": "electro-1",
+    "reactants": [
+      "H2O",
+      "Na2SO4"
+    ],
+    "type": "Electrolysis",
+    "equation": "2 H2O \u2192(electrolysis) 2 H2\u2191 + O2\u2191",
+    "products": [
+      "H2",
+      "O2"
+    ],
+    "catalyst": "Na2SO4 (electrolyte, not consumed)",
+    "conditions": "Direct current applied via inert electrodes",
+    "reactionRate": "Depends on applied current",
+    "activationEnergy": "Provided electrically (cell voltage)",
+    "enthalpyChange": 285.8,
+    "thermicity": "Endothermic (energy supplied as electricity)",
+    "observation": "Gas bubbles form at both electrodes; twice the volume of gas at the cathode (H2) as at the anode (O2)",
+    "mechanism": "Electrical energy drives reduction of water to hydrogen gas at the cathode and oxidation of water to oxygen gas at the anode; the electrolyte carries ionic current without being consumed.",
+    "industrialApplications": "Industrial hydrogen production, electroplating principles",
+    "safety": "Hydrogen and oxygen gas mixture is explosive if ignited together; collect gases separately",
+    "wasteDisposal": "Electrolyte solution can be reused or diluted for disposal",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution",
+      "sparks"
+    ]
+  },
+  {
+    "id": "complex-1",
+    "reactants": [
+      "CuSO4",
+      "NH3"
+    ],
+    "type": "Complex Formation / Coordination Chemistry",
+    "equation": "CuSO4 + 4 NH3 \u2192 [Cu(NH3)4]SO4",
+    "products": [
+      "[Cu(NH3)4]SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, excess ammonia",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -110.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale blue solution first forms a pale blue precipitate, which dissolves in excess ammonia to give a deep royal-blue solution",
+    "mechanism": "Ammonia molecules act as Lewis-base ligands, donating lone pairs to the Cu2+ central ion to form a deep-blue tetraamminecopper(II) coordination complex.",
+    "industrialApplications": "Qualitative test for copper ions; Schweizer's reagent used to dissolve cellulose",
+    "safety": "Ammonia vapor is irritating; use in a well-ventilated area or fume hood",
+    "wasteDisposal": "Collect copper-ammonia complex waste for metal recovery rather than drain disposal",
+    "animation": [
+      "color-change",
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "hydro-1",
+    "reactants": [
+      "FeCl3",
+      "H2O"
+    ],
+    "type": "Hydrolysis",
+    "equation": "FeCl3 + 3 H2O \u2192 Fe(OH)3 + 3 HCl",
+    "products": [
+      "Fe(OH)3",
+      "HCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, dilution with water",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": -25.0,
+    "thermicity": "Exothermic",
+    "observation": "Yellow-brown solution develops a reddish-brown colloidal precipitate/turbidity; solution becomes acidic",
+    "mechanism": "The small, highly charged Fe3+ ion polarizes water molecules, releasing H+ ions while the iron precipitates as the hydroxide \u2014 a salt-hydrolysis reaction typical of salts of a strong acid and weak base.",
+    "industrialApplications": "Water treatment (iron flocculation), pigment chemistry",
+    "safety": "FeCl3 is corrosive and stains; handle with gloves",
+    "wasteDisposal": "Filter the hydroxide precipitate and dispose as inert solid waste",
+    "animation": [
+      "precipitate-formation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "noreact-1",
+    "reactants": [
+      "Cu",
+      "ZnCl2"
+    ],
+    "type": "No Reaction",
+    "equation": "Cu + ZnCl2 \u2192 No Reaction",
+    "products": [],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "N/A",
+    "activationEnergy": "N/A",
+    "enthalpyChange": 0,
+    "thermicity": "None",
+    "observation": "No visible change occurs",
+    "mechanism": "Copper is less reactive than zinc (lower in the reactivity series), so it cannot displace zinc from its salt solution.",
+    "industrialApplications": "N/A",
+    "safety": "No hazard",
+    "wasteDisposal": "N/A",
+    "animation": [],
+    "noReactionReason": "Copper is below zinc in the reactivity series and cannot displace a more reactive metal from its salt solution. A displacement reaction only proceeds when the free metal is more reactive than the metal in the compound."
+  },
+  {
+    "id": "noreact-2",
+    "reactants": [
+      "Au",
+      "HCl"
+    ],
+    "type": "No Reaction",
+    "equation": "Au + HCl \u2192 No Reaction",
+    "products": [],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "N/A",
+    "activationEnergy": "N/A",
+    "enthalpyChange": 0,
+    "thermicity": "None",
+    "observation": "No visible change occurs; gold remains untarnished",
+    "mechanism": "Gold is far below hydrogen in the reactivity series and is chemically inert to non-oxidizing acids like dilute HCl.",
+    "industrialApplications": "N/A",
+    "safety": "No hazard from the (non-)reaction itself",
+    "wasteDisposal": "N/A",
+    "animation": [],
+    "noReactionReason": "Gold is one of the least reactive metals and will not react with hydrochloric acid; only a mixture of concentrated nitric and hydrochloric acids (aqua regia) can dissolve it."
+  },
+  {
+    "id": "neut-3",
+    "reactants": [
+      "HCl",
+      "KOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HCl + KOH -> KCl + H2O",
+    "products": [
+      "KCl",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -57.6,
+    "thermicity": "Exothermic",
+    "observation": "Slight warming; no color change",
+    "mechanism": "H+ from the acid combines with OH- from the base to form water; K+ and Cl- remain as spectator ions forming the salt.",
+    "industrialApplications": "Fertilizer-grade KCl production, titration standardization",
+    "safety": "Both reagents corrosive; goggles and gloves required",
+    "wasteDisposal": "Dilute neutral solution before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-4",
+    "reactants": [
+      "HNO3",
+      "NaOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HNO3 + NaOH -> NaNO3 + H2O",
+    "products": [
+      "NaNO3",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -57.3,
+    "thermicity": "Exothermic",
+    "observation": "Slight warming; clear solution",
+    "mechanism": "Proton transfer from nitric acid to hydroxide forms water and leaves sodium nitrate in solution.",
+    "industrialApplications": "Fertilizer manufacturing (sodium nitrate)",
+    "safety": "HNO3 is a strong oxidizing acid; handle with care",
+    "wasteDisposal": "Dilute before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-5",
+    "reactants": [
+      "H2SO4",
+      "NaOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "H2SO4 + 2 NaOH -> Na2SO4 + 2 H2O",
+    "products": [
+      "Na2SO4",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -114.4,
+    "thermicity": "Exothermic",
+    "observation": "Noticeable warming",
+    "mechanism": "Diprotic sulfuric acid donates two protons to two hydroxide ions.",
+    "industrialApplications": "Detergent and glass manufacturing (sodium sulfate)",
+    "safety": "Both reagents corrosive",
+    "wasteDisposal": "Neutralize fully before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-6",
+    "reactants": [
+      "CH3COOH",
+      "NaOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "CH3COOH + NaOH -> CH3COONa + H2O",
+    "products": [
+      "CH3COONa",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -55.2,
+    "thermicity": "Exothermic",
+    "observation": "Mild warmth; solution becomes near-neutral salt solution",
+    "mechanism": "A weak acid donates its proton to a strong base, going to completion since NaOH is a strong base.",
+    "industrialApplications": "Food preservative (sodium acetate) production",
+    "safety": "Low hazard; mild irritant",
+    "wasteDisposal": "Can be diluted and disposed of safely",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-7",
+    "reactants": [
+      "H3PO4",
+      "NaOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "H3PO4 + 3 NaOH -> Na3PO4 + 3 H2O",
+    "products": [
+      "Na3PO4",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Fast (stepwise)",
+    "activationEnergy": "Low",
+    "enthalpyChange": -171.0,
+    "thermicity": "Exothermic",
+    "observation": "Warming; solution clears as all three acidic protons are neutralized",
+    "mechanism": "Triprotic phosphoric acid loses its three protons in three stages to hydroxide ions.",
+    "industrialApplications": "Detergent builders, food-grade phosphate production",
+    "safety": "H3PO4 corrosive; NaOH caustic",
+    "wasteDisposal": "Neutralize and dilute before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-8",
+    "reactants": [
+      "HF",
+      "NaOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HF + NaOH -> NaF + H2O",
+    "products": [
+      "NaF",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous, plastic (not glass) container",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -68.6,
+    "thermicity": "Exothermic",
+    "observation": "Warming; solution neutralizes",
+    "mechanism": "A weak acid (HF) is neutralized by a strong base.",
+    "industrialApplications": "Fluoride production for water fluoridation and toothpaste",
+    "safety": "HF is extremely corrosive and toxic - use PPE and never glass containers",
+    "wasteDisposal": "Must be treated as hazardous fluoride waste, not drain-disposed",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-9",
+    "reactants": [
+      "HBr",
+      "KOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HBr + KOH -> KBr + H2O",
+    "products": [
+      "KBr",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -57.6,
+    "thermicity": "Exothermic",
+    "observation": "Slight warming",
+    "mechanism": "Strong acid-strong base neutralization producing potassium bromide.",
+    "industrialApplications": "Photographic chemical and pharmaceutical intermediate production",
+    "safety": "Corrosive reagents; handle with gloves",
+    "wasteDisposal": "Dilute before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-10",
+    "reactants": [
+      "HCl",
+      "NH4OH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HCl + NH4OH -> NH4Cl + H2O",
+    "products": [
+      "NH4Cl",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -52.0,
+    "thermicity": "Exothermic",
+    "observation": "White fumes of ammonium chloride may form near the container mouth if concentrated vapors mix",
+    "mechanism": "A strong acid neutralizes a weak base (aqueous ammonia), going to completion.",
+    "industrialApplications": "Fertilizer and flux (soldering) production",
+    "safety": "Ammonia vapor is irritating; use ventilation",
+    "wasteDisposal": "Dilute and dispose per regulations",
+    "animation": [
+      "heat-effect",
+      "smoke"
+    ]
+  },
+  {
+    "id": "neut-11",
+    "reactants": [
+      "H2CO3",
+      "Ca(OH)2"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "H2CO3 + Ca(OH)2 -> CaCO3 + 2 H2O",
+    "products": [
+      "CaCO3",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": -69.0,
+    "thermicity": "Exothermic",
+    "observation": "White precipitate of calcium carbonate forms as limewater turns milky",
+    "mechanism": "Carbonic acid's protons neutralize the base while carbonate combines with calcium to precipitate.",
+    "industrialApplications": "Classic limewater CO2 test; water softening chemistry",
+    "safety": "Low hazard",
+    "wasteDisposal": "Filter and dispose of solid as inert waste",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "neut-12",
+    "reactants": [
+      "HCl",
+      "Ca(OH)2"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "2 HCl + Ca(OH)2 -> CaCl2 + 2 H2O",
+    "products": [
+      "CaCl2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -113.0,
+    "thermicity": "Exothermic",
+    "observation": "Warming; limewater clears/neutralizes",
+    "mechanism": "Two protons from HCl neutralize the two hydroxide ions of calcium hydroxide.",
+    "industrialApplications": "De-icing salt and water treatment (calcium chloride) production",
+    "safety": "Both corrosive; handle with care",
+    "wasteDisposal": "Dilute before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-13",
+    "reactants": [
+      "HNO3",
+      "KOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HNO3 + KOH -> KNO3 + H2O",
+    "products": [
+      "KNO3",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -57.6,
+    "thermicity": "Exothermic",
+    "observation": "Slight warming",
+    "mechanism": "Strong acid-strong base neutralization producing potassium nitrate (saltpeter).",
+    "industrialApplications": "Fertilizer and gunpowder-grade potassium nitrate production",
+    "safety": "HNO3 is oxidizing and corrosive",
+    "wasteDisposal": "Dilute before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-14",
+    "reactants": [
+      "H2SO4",
+      "Ba(OH)2"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "H2SO4 + Ba(OH)2 -> BaSO4 + 2 H2O",
+    "products": [
+      "BaSO4",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -142.0,
+    "thermicity": "Exothermic",
+    "observation": "Dense white precipitate forms as neutralization and precipitation occur simultaneously",
+    "mechanism": "Neutralization and precipitation happen together since barium sulfate is extremely insoluble, driving the reaction to completion.",
+    "industrialApplications": "Teaching demo of combined neutralization/precipitation; BaSO4 for imaging",
+    "safety": "Soluble barium compounds are toxic before precipitation completes",
+    "wasteDisposal": "Filter and dispose of BaSO4 solid as inert waste",
+    "animation": [
+      "precipitate-formation",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "neut-15",
+    "reactants": [
+      "HCl",
+      "Mg(OH)2"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "2 HCl + Mg(OH)2 -> MgCl2 + 2 H2O",
+    "products": [
+      "MgCl2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature; Mg(OH)2 is a suspension (milk of magnesia)",
+    "reactionRate": "Moderate (solid dissolves as it reacts)",
+    "activationEnergy": "Low",
+    "enthalpyChange": -87.0,
+    "thermicity": "Exothermic",
+    "observation": "The white Mg(OH)2 suspension gradually dissolves and clears as it neutralizes the acid",
+    "mechanism": "Insoluble magnesium hydroxide dissolves as its hydroxide ions are consumed by the acid, the basis of antacid action.",
+    "industrialApplications": "Antacid chemistry (Mg(OH)2 neutralizing stomach HCl)",
+    "safety": "Low hazard; classic antacid demonstration",
+    "wasteDisposal": "Neutral solution can be diluted and disposed of",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "combust-4",
+    "reactants": [
+      "C3H8",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "C3H8 + 5 O2 -> 3 CO2 + 4 H2O",
+    "products": [
+      "CO2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source required",
+    "reactionRate": "Very fast once ignited",
+    "activationEnergy": "High (ignition energy)",
+    "enthalpyChange": -2219.0,
+    "thermicity": "Exothermic",
+    "observation": "Blue flame, heat and light released, typical of LPG/propane burners",
+    "mechanism": "Propane undergoes complete combustion via a radical chain mechanism, releasing CO2, water, and substantial energy.",
+    "industrialApplications": "LPG cooking and heating fuel",
+    "safety": "Highly flammable gas; ensure ventilation and no ignition sources when handling",
+    "wasteDisposal": "Combustion products are gaseous; ensure ventilation",
+    "animation": [
+      "flame",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "combust-5",
+    "reactants": [
+      "H2",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "2 H2 + O2 -> 2 H2O",
+    "products": [
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source (spark) required",
+    "reactionRate": "Extremely fast (explosive) once ignited",
+    "activationEnergy": "High (ignition energy)",
+    "enthalpyChange": -286.0,
+    "thermicity": "Exothermic",
+    "observation": "A sharp 'pop' or explosion with a pale blue flame; water vapor condenses afterward",
+    "mechanism": "Hydrogen and oxygen combine explosively via a radical chain mechanism to form water, releasing a large amount of energy.",
+    "industrialApplications": "Rocket fuel, hydrogen fuel cells",
+    "safety": "Hydrogen-oxygen mixtures are highly explosive; perform only in small controlled amounts",
+    "wasteDisposal": "Product is water vapor; no special disposal needed",
+    "animation": [
+      "sparks",
+      "flame"
+    ]
+  },
+  {
+    "id": "combust-6",
+    "reactants": [
+      "CO",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "2 CO + O2 -> 2 CO2",
+    "products": [
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source required",
+    "reactionRate": "Fast once ignited",
+    "activationEnergy": "Moderate to high",
+    "enthalpyChange": -283.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale blue flame; colorless, odorless product gas (CO2) forms",
+    "mechanism": "Carbon monoxide is oxidized to carbon dioxide, converting a toxic gas to a much less hazardous one.",
+    "industrialApplications": "Catalytic converters, blast furnace off-gas combustion",
+    "safety": "CO is highly toxic - handle only in a fume hood with detectors",
+    "wasteDisposal": "Ensure combustion is complete to avoid residual CO",
+    "animation": [
+      "flame",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "combust-7",
+    "reactants": [
+      "C",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "C + O2 -> CO2",
+    "products": [
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source required",
+    "reactionRate": "Moderate (depends on surface area)",
+    "activationEnergy": "High",
+    "enthalpyChange": -393.5,
+    "thermicity": "Exothermic",
+    "observation": "Charcoal/carbon glows red and is slowly consumed, releasing CO2",
+    "mechanism": "Solid carbon is oxidized directly to carbon dioxide gas.",
+    "industrialApplications": "Coal and charcoal combustion for heating and metallurgy (coke)",
+    "safety": "Produces CO2; ensure ventilation, avoid incomplete combustion (CO risk)",
+    "wasteDisposal": "Ash residue can be disposed of as ordinary solid waste",
+    "animation": [
+      "flame",
+      "heat-effect",
+      "smoke"
+    ]
+  },
+  {
+    "id": "combust-8",
+    "reactants": [
+      "Fe",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "4 Fe + 3 O2 -> 2 Fe2O3",
+    "products": [
+      "Fe2O3"
+    ],
+    "catalyst": null,
+    "conditions": "Fine iron powder/wool + ignition source (rapid rusting/burning)",
+    "reactionRate": "Fast for fine powder, slow (rusting) for bulk metal",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -824.2,
+    "thermicity": "Exothermic",
+    "observation": "Fine iron wool glows and sparks when ignited, leaving reddish-brown iron oxide",
+    "mechanism": "Iron is oxidized from 0 to +3 while oxygen is reduced, forming ionic iron(III) oxide.",
+    "industrialApplications": "Basis of rusting/corrosion chemistry; thermite reaction chemistry",
+    "safety": "Fine iron dust is a fire hazard",
+    "wasteDisposal": "Fe2O3 ash is inert and safe to dispose of",
+    "animation": [
+      "sparks",
+      "smoke"
+    ]
+  },
+  {
+    "id": "combust-9",
+    "reactants": [
+      "S",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "S + O2 -> SO2",
+    "products": [
+      "SO2"
+    ],
+    "catalyst": null,
+    "conditions": "Ignition source required",
+    "reactionRate": "Fast once ignited",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -296.8,
+    "thermicity": "Exothermic",
+    "observation": "Sulfur burns with a pale blue flame and a sharp, choking odor of sulfur dioxide",
+    "mechanism": "Sulfur is oxidized to sulfur dioxide gas.",
+    "industrialApplications": "Sulfuric acid manufacturing (Contact process first step)",
+    "safety": "SO2 is toxic and irritating; perform only in a fume hood",
+    "wasteDisposal": "Vent SO2 safely; do not release into occupied spaces",
+    "animation": [
+      "flame",
+      "smoke"
+    ]
+  },
+  {
+    "id": "combust-10",
+    "reactants": [
+      "SO2",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "2 SO2 + O2 -> 2 SO3",
+    "products": [
+      "SO3"
+    ],
+    "catalyst": "V2O5 (vanadium pentoxide)",
+    "conditions": "Catalytic, elevated temperature (~450C industrially)",
+    "reactionRate": "Slow without catalyst; fast with V2O5",
+    "activationEnergy": "High without catalyst",
+    "enthalpyChange": -198.0,
+    "thermicity": "Exothermic",
+    "observation": "No visible flame; SO3 forms as a fuming gas that readily absorbs moisture",
+    "mechanism": "Sulfur dioxide is further oxidized to sulfur trioxide, requiring a vanadium pentoxide catalyst industrially (Contact process).",
+    "industrialApplications": "Sulfuric acid manufacturing (Contact process second step)",
+    "safety": "SO3 is highly corrosive and reacts violently with water",
+    "wasteDisposal": "Must be absorbed into sulfuric acid, not vented directly",
+    "animation": [
+      "smoke"
+    ]
+  },
+  {
+    "id": "combust-11",
+    "reactants": [
+      "P4",
+      "O2"
+    ],
+    "type": "Combustion",
+    "equation": "P4 + 5 O2 -> P4O10",
+    "products": [
+      "P4O10"
+    ],
+    "catalyst": null,
+    "conditions": "Spontaneous ignition in air (pyrophoric) or ignition source for red phosphorus",
+    "reactionRate": "Very fast, often spontaneous",
+    "activationEnergy": "Very low (white P) to moderate (red P)",
+    "enthalpyChange": -2984.0,
+    "thermicity": "Exothermic",
+    "observation": "Brilliant white flame and dense white smoke (phosphorus pentoxide fumes)",
+    "mechanism": "Phosphorus is fully oxidized to phosphorus pentoxide, a strong dehydrating agent.",
+    "industrialApplications": "Smoke bombs/screens, phosphoric acid production",
+    "safety": "White phosphorus is pyrophoric and highly toxic; handle only under water/inert atmosphere",
+    "wasteDisposal": "P4O10 fumes are corrosive and hygroscopic; use a fume hood",
+    "animation": [
+      "flame",
+      "smoke",
+      "sparks"
+    ]
+  },
+  {
+    "id": "redox-3",
+    "reactants": [
+      "CuO",
+      "H2"
+    ],
+    "type": "Redox",
+    "equation": "CuO + H2 -> Cu + H2O",
+    "products": [
+      "Cu",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Heated (typically ~300-400C) in a hydrogen stream",
+    "reactionRate": "Moderate, requires heating",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -87.0,
+    "thermicity": "Exothermic",
+    "observation": "Black copper oxide powder turns to a reddish-brown copper deposit as water vapor is released",
+    "mechanism": "Hydrogen reduces Cu2+ in copper oxide to metallic copper while itself being oxidized to water, a classic reduction demonstration.",
+    "industrialApplications": "Extractive metallurgy demonstration; hydrogen reduction of metal oxides",
+    "safety": "H2 gas is flammable; only heat in a controlled stream away from open flame",
+    "wasteDisposal": "Copper metal residue can be collected; no special disposal needed",
+    "animation": [
+      "color-change",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "redox-4",
+    "reactants": [
+      "MnO2",
+      "HCl"
+    ],
+    "type": "Redox",
+    "equation": "MnO2 + 4 HCl -> MnCl2 + Cl2 + 2 H2O",
+    "products": [
+      "MnCl2",
+      "Cl2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Gentle heating, concentrated HCl",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -60.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale green-yellow chlorine gas is evolved with a sharp odor; black MnO2 dissolves",
+    "mechanism": "Manganese is reduced from +4 to +2 while chloride ions are oxidized to chlorine gas.",
+    "industrialApplications": "Classic laboratory preparation of chlorine gas",
+    "safety": "Chlorine gas is toxic - perform only in a fume hood",
+    "wasteDisposal": "Excess must be neutralized; never release Cl2 gas into occupied spaces",
+    "animation": [
+      "gas-evolution",
+      "bubble-animation"
+    ]
+  },
+  {
+    "id": "redox-5",
+    "reactants": [
+      "FeCl2",
+      "Cl2"
+    ],
+    "type": "Redox",
+    "equation": "2 FeCl2 + Cl2 -> 2 FeCl3",
+    "products": [
+      "FeCl3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -114.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale green Fe2+ solution turns yellow-brown as it is oxidized to Fe3+",
+    "mechanism": "Chlorine gas oxidizes iron(II) to iron(III), itself being reduced to chloride ions.",
+    "industrialApplications": "Water treatment coagulant (ferric chloride) production",
+    "safety": "Chlorine gas is toxic; handle in a fume hood",
+    "wasteDisposal": "Dilute ferric chloride solution before disposal",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "redox-6",
+    "reactants": [
+      "KI",
+      "Cl2"
+    ],
+    "type": "Redox",
+    "equation": "2 KI + Cl2 -> 2 KCl + I2",
+    "products": [
+      "KCl",
+      "I2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -105.0,
+    "thermicity": "Exothermic",
+    "observation": "Colorless iodide solution turns brown/violet as iodine is liberated",
+    "mechanism": "Chlorine, being more reactive, displaces and oxidizes iodide to iodine, a halogen displacement redox reaction.",
+    "industrialApplications": "Classic demonstration of halogen reactivity trend (Cl2 > Br2 > I2)",
+    "safety": "Chlorine gas is toxic; handle in a fume hood",
+    "wasteDisposal": "Iodine can be recovered; dilute remaining solution before disposal",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "redox-7",
+    "reactants": [
+      "Fe2O3",
+      "CO"
+    ],
+    "type": "Redox",
+    "equation": "Fe2O3 + 3 CO -> 2 Fe + 3 CO2",
+    "products": [
+      "Fe",
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "High temperature (~1200C, blast furnace conditions)",
+    "reactionRate": "Fast at high temperature",
+    "activationEnergy": "High (requires furnace heat)",
+    "enthalpyChange": -24.8,
+    "thermicity": "Exothermic",
+    "observation": "Red-brown iron oxide is reduced to molten grey iron metal as CO2 gas escapes",
+    "mechanism": "Carbon monoxide reduces iron(III) oxide to metallic iron while itself being oxidized to carbon dioxide - the key blast furnace reaction.",
+    "industrialApplications": "Industrial iron extraction (blast furnace ironmaking)",
+    "safety": "Requires industrial furnace conditions and CO gas handling (toxic)",
+    "wasteDisposal": "Industrial off-gas is captured and treated, not vented",
+    "animation": [
+      "heat-effect",
+      "smoke"
+    ]
+  },
+  {
+    "id": "redox-8",
+    "reactants": [
+      "Na",
+      "Cl2"
+    ],
+    "type": "Redox",
+    "equation": "2 Na + Cl2 -> 2 NaCl",
+    "products": [
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature; sodium reacts vigorously with chlorine gas",
+    "reactionRate": "Very fast, often vigorous/violent",
+    "activationEnergy": "Low",
+    "enthalpyChange": -822.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright yellow-orange flame/glow as sodium burns in chlorine gas, forming white NaCl smoke",
+    "mechanism": "Sodium is oxidized to Na+ while chlorine is reduced to Cl-, a textbook ionic-bond-forming redox reaction.",
+    "industrialApplications": "Fundamental demonstration of ionic bond formation; table salt production context",
+    "safety": "Sodium metal is highly reactive with moisture/air; chlorine gas is toxic - fume hood required",
+    "wasteDisposal": "NaCl product is safe table salt; no special disposal needed",
+    "animation": [
+      "flame",
+      "sparks",
+      "smoke"
+    ]
+  },
+  {
+    "id": "precip-4",
+    "reactants": [
+      "CuSO4",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "CuSO4 + 2 NaOH -> Cu(OH)2 + Na2SO4",
+    "products": [
+      "Cu(OH)2",
+      "Na2SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -18.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale blue gelatinous precipitate of copper(II) hydroxide forms",
+    "mechanism": "Hydroxide ions combine with copper(II) ions to form insoluble Cu(OH)2.",
+    "industrialApplications": "Qualitative test for Cu2+ ions",
+    "safety": "CuSO4 is an irritant; NaOH is corrosive",
+    "wasteDisposal": "Filter and dispose of Cu(OH)2 as inert solid waste",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-5",
+    "reactants": [
+      "FeCl3",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "FeCl3 + 3 NaOH -> Fe(OH)3 + 3 NaCl",
+    "products": [
+      "Fe(OH)3",
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -35.0,
+    "thermicity": "Exothermic",
+    "observation": "Reddish-brown gelatinous precipitate of iron(III) hydroxide forms immediately",
+    "mechanism": "Hydroxide ions combine with iron(III) ions to form insoluble Fe(OH)3.",
+    "industrialApplications": "Qualitative test for Fe3+ ions; water treatment flocculation",
+    "safety": "FeCl3 and NaOH are both corrosive",
+    "wasteDisposal": "Filter and dispose of Fe(OH)3 as inert solid waste",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-6",
+    "reactants": [
+      "CaCl2",
+      "Na2CO3"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "CaCl2 + Na2CO3 -> CaCO3 + 2 NaCl",
+    "products": [
+      "CaCO3",
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -15.0,
+    "thermicity": "Exothermic",
+    "observation": "White precipitate of calcium carbonate forms",
+    "mechanism": "Calcium and carbonate ions combine because calcium carbonate is poorly soluble.",
+    "industrialApplications": "Water softening chemistry; classic precipitation demonstration",
+    "safety": "Low hazard",
+    "wasteDisposal": "Filter solid and dispose as inert waste",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-7",
+    "reactants": [
+      "AgNO3",
+      "KBr"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "AgNO3 + KBr -> AgBr + KNO3",
+    "products": [
+      "AgBr",
+      "KNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -84.5,
+    "thermicity": "Exothermic",
+    "observation": "Pale cream/yellow precipitate of silver bromide forms, darkens on light exposure",
+    "mechanism": "Silver and bromide ions combine to form insoluble, light-sensitive AgBr.",
+    "industrialApplications": "Qualitative test for bromide ions; photographic emulsion chemistry",
+    "safety": "AgNO3 is corrosive and light-sensitive",
+    "wasteDisposal": "Collect silver solids for recovery/recycling",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-8",
+    "reactants": [
+      "AgNO3",
+      "KI"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "AgNO3 + KI -> AgI + KNO3",
+    "products": [
+      "AgI",
+      "KNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -93.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright yellow precipitate of silver iodide forms",
+    "mechanism": "Silver and iodide ions combine to form the very insoluble, characteristically yellow AgI.",
+    "industrialApplications": "Qualitative test for iodide ions; historically used in cloud seeding and old photography",
+    "safety": "AgNO3 is corrosive and light-sensitive",
+    "wasteDisposal": "Collect silver solids for recovery/recycling",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-9",
+    "reactants": [
+      "MgCl2",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "MgCl2 + 2 NaOH -> Mg(OH)2 + 2 NaCl",
+    "products": [
+      "Mg(OH)2",
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -14.0,
+    "thermicity": "Exothermic",
+    "observation": "White precipitate of magnesium hydroxide forms",
+    "mechanism": "Hydroxide ions combine with magnesium ions to form insoluble Mg(OH)2, the same compound found in milk of magnesia.",
+    "industrialApplications": "Qualitative test for Mg2+ ions",
+    "safety": "Low hazard",
+    "wasteDisposal": "Filter and dispose of solid as inert waste",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-10",
+    "reactants": [
+      "ZnSO4",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "ZnSO4 + 2 NaOH -> Zn(OH)2 + Na2SO4",
+    "products": [
+      "Zn(OH)2",
+      "Na2SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -12.0,
+    "thermicity": "Exothermic",
+    "observation": "White gelatinous precipitate of zinc hydroxide forms; dissolves again in excess NaOH (amphoteric)",
+    "mechanism": "Hydroxide ions combine with zinc ions to form insoluble Zn(OH)2, which is amphoteric and redissolves in excess base as zincate.",
+    "industrialApplications": "Qualitative test for Zn2+ ions; demonstrates amphoteric behavior",
+    "safety": "NaOH is corrosive",
+    "wasteDisposal": "Filter and dispose of solid as inert waste",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "gas-3",
+    "reactants": [
+      "Na2CO3",
+      "HCl"
+    ],
+    "type": "Double Displacement / Gas Evolution",
+    "equation": "Na2CO3 + 2 HCl -> 2 NaCl + H2O + CO2",
+    "products": [
+      "NaCl",
+      "H2O",
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -30.0,
+    "thermicity": "Exothermic",
+    "observation": "Vigorous effervescence as carbon dioxide gas is released",
+    "mechanism": "Carbonate ions react with hydrogen ions to form carbonic acid, which decomposes to water and CO2.",
+    "industrialApplications": "Classic acid-carbonate test; descaling and cleaning products",
+    "safety": "Low hazard; CO2 can accumulate in confined spaces",
+    "wasteDisposal": "Neutral solution can be diluted and disposed of",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "gas-4",
+    "reactants": [
+      "Fe",
+      "H2SO4"
+    ],
+    "type": "Single Displacement / Gas Evolution",
+    "equation": "Fe + H2SO4 -> FeSO4 + H2",
+    "products": [
+      "FeSO4",
+      "H2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature (dilute acid)",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -137.7,
+    "thermicity": "Exothermic",
+    "observation": "Bubbles of hydrogen form on the iron surface as it slowly dissolves; solution turns pale green",
+    "mechanism": "Iron is oxidized to Fe2+ while hydrogen ions are reduced to H2 gas.",
+    "industrialApplications": "Laboratory hydrogen preparation; industrial pickling of steel",
+    "safety": "Hydrogen gas is flammable; dilute acid causes irritation",
+    "wasteDisposal": "Neutralize excess acid before disposal",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "gas-5",
+    "reactants": [
+      "NH4Cl",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Gas Evolution",
+    "equation": "NH4Cl + NaOH -> NH3 + NaCl + H2O",
+    "products": [
+      "NH3",
+      "NaCl",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Gentle heating speeds gas release",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": 4.0,
+    "thermicity": "Slightly Endothermic",
+    "observation": "Pungent ammonia gas is released, detectable by smell and turning damp red litmus blue",
+    "mechanism": "Hydroxide displaces ammonia from the ammonium ion, releasing it as a gas - the standard confirmatory test for ammonium ions.",
+    "industrialApplications": "Qualitative test for NH4+ ions",
+    "safety": "Ammonia gas is irritating; use in a ventilated area",
+    "wasteDisposal": "Dilute remaining solution before disposal",
+    "animation": [
+      "gas-evolution",
+      "smoke"
+    ]
+  },
+  {
+    "id": "gas-6",
+    "reactants": [
+      "Na2SO3",
+      "HCl"
+    ],
+    "type": "Double Displacement / Gas Evolution",
+    "equation": "Na2SO3 + 2 HCl -> 2 NaCl + H2O + SO2",
+    "products": [
+      "NaCl",
+      "H2O",
+      "SO2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -20.0,
+    "thermicity": "Exothermic",
+    "observation": "Colorless gas with a sharp, choking sulfur dioxide odor is released",
+    "mechanism": "Sulfite ions react with hydrogen ions to release sulfur dioxide gas, the standard confirmatory test for sulfite ions.",
+    "industrialApplications": "Qualitative test for sulfite ions; SO2 generation for bleaching/preservative use",
+    "safety": "SO2 gas is toxic and irritating; use a fume hood",
+    "wasteDisposal": "Vent SO2 safely; do not release into occupied spaces",
+    "animation": [
+      "gas-evolution",
+      "bubble-animation"
+    ]
+  },
+  {
+    "id": "gas-7",
+    "reactants": [
+      "Na2S",
+      "HCl"
+    ],
+    "type": "Double Displacement / Gas Evolution",
+    "equation": "Na2S + 2 HCl -> 2 NaCl + H2S",
+    "products": [
+      "NaCl",
+      "H2S"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -25.0,
+    "thermicity": "Exothermic",
+    "observation": "Gas with a characteristic 'rotten egg' odor of hydrogen sulfide is released",
+    "mechanism": "Sulfide ions react with hydrogen ions to release toxic hydrogen sulfide gas, the standard confirmatory test for sulfide ions.",
+    "industrialApplications": "Qualitative test for sulfide ions",
+    "safety": "H2S is highly toxic even at low concentrations - fume hood required, never inhale directly",
+    "wasteDisposal": "Vent H2S safely through a scrubber; never release into occupied spaces",
+    "animation": [
+      "gas-evolution",
+      "bubble-animation"
+    ]
+  },
+  {
+    "id": "gas-8",
+    "reactants": [
+      "H2O2",
+      "MnO2"
+    ],
+    "type": "Decomposition / Gas Evolution",
+    "equation": "2 H2O2 -> 2 H2O + O2 (MnO2 catalyst)",
+    "products": [
+      "H2O",
+      "O2"
+    ],
+    "catalyst": "MnO2 (catalyst, not consumed)",
+    "conditions": "Room temperature; MnO2 catalyzes the decomposition",
+    "reactionRate": "Fast in the presence of catalyst; slow without it",
+    "activationEnergy": "Lowered significantly by the catalyst",
+    "enthalpyChange": -196.0,
+    "thermicity": "Exothermic",
+    "observation": "Vigorous fizzing/foaming as oxygen gas is rapidly released; a glowing splint relights",
+    "mechanism": "Manganese dioxide provides an alternative lower-energy pathway that speeds up the natural, slow decomposition of hydrogen peroxide into water and oxygen.",
+    "industrialApplications": "Basis of the 'elephant toothpaste' demonstration; industrial peroxide decomposition control",
+    "safety": "H2O2 can cause skin burns at higher concentrations",
+    "wasteDisposal": "Products are water and oxygen; no special disposal needed",
+    "animation": [
+      "bubble-animation",
+      "foam",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "gas-9",
+    "reactants": [
+      "KClO3",
+      "MnO2"
+    ],
+    "type": "Decomposition / Gas Evolution",
+    "equation": "2 KClO3 -> 2 KCl + 3 O2 (heat, MnO2 catalyst)",
+    "products": [
+      "KCl",
+      "O2"
+    ],
+    "catalyst": "MnO2 (catalyst, not consumed)",
+    "conditions": "Requires heating; MnO2 lowers the required temperature",
+    "reactionRate": "Slow without catalyst/heat; moderate with both",
+    "activationEnergy": "High without catalyst, lowered with MnO2",
+    "enthalpyChange": -89.4,
+    "thermicity": "Exothermic",
+    "observation": "Oxygen gas bubbles/streams off on heating; a glowing splint relights vigorously",
+    "mechanism": "Manganese dioxide catalyzes the thermal decomposition of potassium chlorate into potassium chloride and oxygen gas.",
+    "industrialApplications": "Classic laboratory preparation of oxygen gas; oxidizer in fireworks/matches",
+    "safety": "KClO3 is a strong oxidizer and fire/explosion hazard if contaminated with combustibles - keep away from organics",
+    "wasteDisposal": "Cool residue fully before disposal; keep separate from combustible waste",
+    "animation": [
+      "heat-effect",
+      "bubble-animation",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "electro-2",
+    "reactants": [
+      "NaCl",
+      "H2O"
+    ],
+    "type": "Electrolysis",
+    "equation": "2 NaCl + 2 H2O -> 2 NaOH + H2 + Cl2 (electrolysis)",
+    "products": [
+      "NaOH",
+      "H2",
+      "Cl2"
+    ],
+    "catalyst": null,
+    "conditions": "Direct current through brine (chlor-alkali process)",
+    "reactionRate": "Depends on applied current",
+    "activationEnergy": "Provided electrically",
+    "enthalpyChange": 224.0,
+    "thermicity": "Endothermic (energy supplied as electricity)",
+    "observation": "Gas bubbles at both electrodes: hydrogen at the cathode, pale green-yellow chlorine at the anode; solution becomes basic",
+    "mechanism": "Electrical energy reduces water to hydrogen at the cathode and oxidizes chloride ions to chlorine at the anode, leaving hydroxide ions to accumulate as NaOH.",
+    "industrialApplications": "Industrial chlor-alkali process producing NaOH, Cl2, and H2 for the chemical industry",
+    "safety": "Chlorine gas is toxic; hydrogen is flammable - industrial-scale process only performed with proper containment",
+    "wasteDisposal": "Products are valuable industrial chemicals, not waste; lab-scale traces should be neutralized",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution",
+      "sparks"
+    ]
+  },
+  {
+    "id": "electro-3",
+    "reactants": [
+      "CuSO4",
+      "H2O"
+    ],
+    "type": "Electrolysis",
+    "equation": "2 CuSO4 + 2 H2O -> 2 Cu + O2 + 2 H2SO4 (electrolysis, inert electrodes)",
+    "products": [
+      "Cu",
+      "O2",
+      "H2SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Direct current through aqueous copper sulfate",
+    "reactionRate": "Depends on applied current",
+    "activationEnergy": "Provided electrically",
+    "enthalpyChange": 130.0,
+    "thermicity": "Endothermic (energy supplied as electricity)",
+    "observation": "Reddish copper metal deposits at the cathode; oxygen gas bubbles form at the anode; blue color fades as Cu2+ is depleted",
+    "mechanism": "Copper(II) ions are preferentially reduced to copper metal at the cathode (electroplating/refining basis) while water is oxidized to oxygen at the anode.",
+    "industrialApplications": "Electrorefining and electroplating of copper",
+    "safety": "Handle electrical equipment safely around aqueous solutions",
+    "wasteDisposal": "Dilute remaining acidic sulfate solution before disposal",
+    "animation": [
+      "bubble-animation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "org-1",
+    "reactants": [
+      "CH3COOH",
+      "C2H5OH"
+    ],
+    "type": "Organic / Esterification",
+    "equation": "CH3COOH + C2H5OH -> CH3COOC2H5 + H2O (H2SO4, heat)",
+    "products": [
+      "CH3COOC2H5",
+      "H2O"
+    ],
+    "catalyst": "H2SO4 (catalyst)",
+    "conditions": "Heated under reflux with a few drops of concentrated H2SO4",
+    "reactionRate": "Slow; hours under reflux for good yield",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -2.0,
+    "thermicity": "Slightly Exothermic",
+    "observation": "A sweet, fruity (pear-drop) smell of ethyl acetate develops in the flask",
+    "mechanism": "Sulfuric acid protonates the carboxylic acid, allowing the alcohol's oxygen to attack and, after water loss, form the ester - a condensation (Fischer esterification) reaction.",
+    "industrialApplications": "Flavoring and solvent (ethyl acetate) manufacturing; nail polish remover",
+    "safety": "H2SO4 is corrosive; ethyl acetate vapor is flammable",
+    "wasteDisposal": "Neutralize acid catalyst before disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "org-2",
+    "reactants": [
+      "CH3COOC2H5",
+      "H2O"
+    ],
+    "type": "Organic / Hydrolysis",
+    "equation": "CH3COOC2H5 + H2O -> CH3COOH + C2H5OH (acid or base)",
+    "products": [
+      "CH3COOH",
+      "C2H5OH"
+    ],
+    "catalyst": "H+ or OH- (catalyst)",
+    "conditions": "Heated with dilute acid or base catalyst",
+    "reactionRate": "Slow without catalyst; moderate with catalyst",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": 2.0,
+    "thermicity": "Slightly Endothermic",
+    "observation": "The fruity ester smell fades as the mixture is heated with the catalyst",
+    "mechanism": "Water attacks the ester's carbonyl carbon, reversing esterification to regenerate the carboxylic acid and alcohol.",
+    "industrialApplications": "Reverse of ester synthesis; relevant to fat/oil digestion chemistry",
+    "safety": "Low hazard; mild heating required",
+    "wasteDisposal": "Neutral products can be diluted for disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "org-3",
+    "reactants": [
+      "C2H5OH",
+      "KMnO4"
+    ],
+    "type": "Organic / Redox (Oxidation)",
+    "equation": "5 C2H5OH + 4 KMnO4 + 6 H2SO4 -> 5 CH3COOH + 4 MnSO4 + 2 K2SO4 + 11 H2O",
+    "products": [
+      "CH3COOH",
+      "MnSO4",
+      "K2SO4",
+      "H2O"
+    ],
+    "catalyst": "H2SO4 (acidic medium)",
+    "conditions": "Acidified, gentle heating",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -180.0,
+    "thermicity": "Exothermic",
+    "observation": "Deep purple permanganate color fades to pale/colorless as the alcohol is oxidized",
+    "mechanism": "Permanganate oxidizes the primary alcohol first to an aldehyde and then to a carboxylic acid, while manganese is reduced from +7 to +2.",
+    "industrialApplications": "Breathalyzer chemistry; oxidation-state teaching demonstration",
+    "safety": "KMnO4 stains and is a strong oxidizer; H2SO4 is corrosive",
+    "wasteDisposal": "Dilute and neutralize before disposal; manganese waste should not be discharged untreated",
+    "animation": [
+      "color-change",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "org-4",
+    "reactants": [
+      "C6H12O6",
+      "H2O"
+    ],
+    "type": "Organic / Fermentation",
+    "equation": "C6H12O6 -> 2 C2H5OH + 2 CO2 (zymase, yeast, aqueous)",
+    "products": [
+      "C2H5OH",
+      "CO2"
+    ],
+    "catalyst": "Zymase (yeast enzyme complex)",
+    "conditions": "Anaerobic, aqueous, ~25-35C with live yeast",
+    "reactionRate": "Slow (hours to days)",
+    "activationEnergy": "Low (enzyme-catalyzed)",
+    "enthalpyChange": -70.0,
+    "thermicity": "Exothermic",
+    "observation": "Gentle bubbling of CO2 gas as the solution slowly ferments and develops an alcoholic smell",
+    "mechanism": "Yeast enzymes (zymase) break glucose down anaerobically into ethanol and carbon dioxide - the basis of brewing and baking.",
+    "industrialApplications": "Brewing, winemaking, and bread-leavening",
+    "safety": "Low hazard; CO2 can accumulate in sealed fermentation vessels - allow gas to vent",
+    "wasteDisposal": "Fermentation byproducts are non-hazardous and biodegradable",
+    "animation": [
+      "bubble-animation"
+    ]
+  },
+  {
+    "id": "org-5",
+    "reactants": [
+      "CH3COOC2H5",
+      "NaOH"
+    ],
+    "type": "Organic / Saponification",
+    "equation": "CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH",
+    "products": [
+      "CH3COONa",
+      "C2H5OH"
+    ],
+    "catalyst": null,
+    "conditions": "Heated with aqueous NaOH",
+    "reactionRate": "Moderate, faster than acid hydrolysis and irreversible",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -50.0,
+    "thermicity": "Exothermic",
+    "observation": "The fruity ester smell disappears as the mixture is heated with sodium hydroxide",
+    "mechanism": "Hydroxide attacks the ester's carbonyl carbon in an irreversible base-catalyzed hydrolysis, the reaction class used industrially to make soap from fats.",
+    "industrialApplications": "Soap-making (saponification of fats/oils is the same reaction class)",
+    "safety": "NaOH is corrosive",
+    "wasteDisposal": "Neutral products can be diluted for disposal",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "org-6",
+    "reactants": [
+      "C2H4",
+      "H2"
+    ],
+    "type": "Organic / Hydrogenation",
+    "equation": "C2H4 + H2 -> C2H6 (Ni or Pt catalyst)",
+    "products": [
+      "C2H6"
+    ],
+    "catalyst": "Ni or Pt (catalyst)",
+    "conditions": "Catalytic surface, moderate pressure/temperature",
+    "reactionRate": "Fast with catalyst; negligible without",
+    "activationEnergy": "Lowered significantly by the catalyst",
+    "enthalpyChange": -137.0,
+    "thermicity": "Exothermic",
+    "observation": "No visible color change; the gas mixture is converted to ethane on the catalyst surface",
+    "mechanism": "Hydrogen adds across the carbon-carbon double bond on a metal catalyst surface, converting the unsaturated alkene to a saturated alkane.",
+    "industrialApplications": "Margarine production (hydrogenation of vegetable oils); petrochemical saturation reactions",
+    "safety": "H2 gas is highly flammable",
+    "wasteDisposal": "Product ethane is a simple hydrocarbon gas; vent safely",
+    "animation": []
+  },
+  {
+    "id": "org-7",
+    "reactants": [
+      "CH4",
+      "Cl2"
+    ],
+    "type": "Organic / Substitution",
+    "equation": "CH4 + Cl2 -> CH3Cl + HCl (UV light)",
+    "products": [
+      "CH3Cl",
+      "HCl"
+    ],
+    "catalyst": "UV light (initiator)",
+    "conditions": "UV light required to initiate the free-radical chain reaction",
+    "reactionRate": "Fast once initiated by light",
+    "activationEnergy": "Moderate (light-driven initiation)",
+    "enthalpyChange": -99.0,
+    "thermicity": "Exothermic",
+    "observation": "No flame; the gas mixture reacts under UV light to form a fuming, acidic gas (HCl) and chloromethane",
+    "mechanism": "UV light splits Cl2 into radicals, which abstract a hydrogen from methane in a free-radical substitution chain mechanism.",
+    "industrialApplications": "Industrial production of chloromethanes as solvents and refrigerant precursors",
+    "safety": "Cl2 gas is toxic; reaction must be run in a fume hood shielded from stray light sources",
+    "wasteDisposal": "HCl gas must be scrubbed/neutralized before venting",
+    "animation": [
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "org-8",
+    "reactants": [
+      "C2H4",
+      "O2"
+    ],
+    "type": "Organic / Polymerization",
+    "equation": "n C2H4 -> (-CH2-CH2-)n Polyethylene (trace O2 initiator, high pressure)",
+    "products": [
+      "Polyethylene"
+    ],
+    "catalyst": "Trace O2 or peroxide radical initiator",
+    "conditions": "High pressure (~1000-3000 atm) and moderate heat industrially (simplified here)",
+    "reactionRate": "Fast once initiated",
+    "activationEnergy": "Initiation step has a real barrier; propagation is fast",
+    "enthalpyChange": -88.0,
+    "thermicity": "Exothermic",
+    "observation": "The gas is gradually converted into a solid, waxy polyethylene as the chain reaction proceeds",
+    "mechanism": "A trace radical initiator opens the C=C double bond, and the resulting radical adds to further ethene monomers in a chain-growth addition polymerization.",
+    "industrialApplications": "Manufacturing of polyethylene plastics (bags, bottles, packaging film)",
+    "safety": "Ethene is flammable; industrial polymerization uses high pressure and requires trained handling",
+    "wasteDisposal": "Polyethylene product is a stable, recyclable plastic",
+    "animation": []
+  },
+  {
+    "id": "syn-1",
+    "reactants": [
+      "Na",
+      "S"
+    ],
+    "type": "Synthesis / Direct Combination",
+    "equation": "2 Na + S \u2192 Na2S",
+    "products": [
+      "Na2S"
+    ],
+    "catalyst": null,
+    "conditions": "Gently heated, dry conditions",
+    "reactionRate": "Fast upon heating",
+    "activationEnergy": "Low",
+    "enthalpyChange": -361.0,
+    "thermicity": "Exothermic",
+    "observation": "Vigorous reaction with a bright yellow flash, forming white-to-yellowish solid sodium sulfide.",
+    "mechanism": "Sodium metal transfers electrons to sulfur, forming ionic sodium sulfide (Na2S).",
+    "industrialApplications": "Kraft process in paper manufacturing, dye synthesis, water treatment",
+    "safety": "Sodium is highly reactive with moisture; perform in dry environment under fume hood.",
+    "wasteDisposal": "Dispose as hazardous solid waste per chemical safety guidelines.",
+    "animation": [
+      "heat-effect",
+      "flash-effect"
+    ]
+  },
+  {
+    "id": "syn-2",
+    "reactants": [
+      "Al",
+      "Cl2"
+    ],
+    "type": "Synthesis / Direct Combination",
+    "equation": "2 Al + 3 Cl2 \u2192 2 AlCl3",
+    "products": [
+      "AlCl3"
+    ],
+    "catalyst": null,
+    "conditions": "Dry chlorine gas passed over heated aluminum foil/powder",
+    "reactionRate": "Vigorous and fast",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -1408.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright glow, vigorous exothermic combustion forming white aluminum chloride fumes/sublimates.",
+    "mechanism": "Direct combination of metallic aluminum and halogen gas via rapid electron transfer.",
+    "industrialApplications": "Friedel-Crafts reaction catalyst in organic synthesis, aluminum production",
+    "safety": "Chlorine gas is highly toxic; toxic AlCl3 fumes react with water to form HCl gas.",
+    "wasteDisposal": "Neutralize residual acid fumes and dispose of solid waste in hazardous containment.",
+    "animation": [
+      "glow-effect",
+      "fume-effect"
+    ]
+  },
+  {
+    "id": "syn-3",
+    "reactants": [
+      "Fe",
+      "S"
+    ],
+    "type": "Synthesis / Combination",
+    "equation": "Fe + S \u2192 FeS",
+    "products": [
+      "FeS"
+    ],
+    "catalyst": null,
+    "conditions": "Heating mixture of iron filings and sulfur powder",
+    "reactionRate": "Moderate (sustained red heat once started)",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -100.0,
+    "thermicity": "Exothermic",
+    "observation": "Red glow spreads through the mixture without further external heating; dark black solid forms.",
+    "mechanism": "Exothermic direct combination yielding iron(II) sulfide lattice.",
+    "industrialApplications": "Source of H2S gas in qualitative laboratory analysis, metallurgy",
+    "safety": "Sulfur dioxide fumes may form as side-product; perform under fume hood.",
+    "wasteDisposal": "Dispose as heavy metal solid waste.",
+    "animation": [
+      "glow-effect"
+    ]
+  },
+  {
+    "id": "syn-4",
+    "reactants": [
+      "CaO",
+      "H2O"
+    ],
+    "type": "Synthesis / Slaking Reaction",
+    "equation": "CaO + H2O \u2192 Ca(OH)2",
+    "products": [
+      "Ca(OH)2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Very low",
+    "enthalpyChange": -63.7,
+    "thermicity": "Exothermic",
+    "observation": "Vigorous bubbling/hissing, mixture boils due to intense heat release, dry powder crumbles into white paste.",
+    "mechanism": "Hydration of quicklime (CaO) yielding slaked lime (Ca(OH)2).",
+    "industrialApplications": "Mortar and plaster preparation, wastewater treatment, acidic soil neutralization",
+    "safety": "Corrosive and caustic mixture; can cause severe skin burns and eye damage.",
+    "wasteDisposal": "Neutralize alkaline slurry before discharge.",
+    "animation": [
+      "heat-effect",
+      "bubbling-effect"
+    ]
+  },
+  {
+    "id": "syn-5",
+    "reactants": [
+      "SO3",
+      "H2O"
+    ],
+    "type": "Synthesis / Acid Formation",
+    "equation": "SO3 + H2O \u2192 H2SO4",
+    "products": [
+      "H2SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Exothermic gas-liquid absorption",
+    "reactionRate": "Very fast",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -132.4,
+    "thermicity": "Exothermic",
+    "observation": "Dense white acidic mist forms immediately; extreme temperature increase.",
+    "mechanism": "Acid anhydride hydration where sulfur trioxide reacts rapidly with water to form sulfuric acid.",
+    "industrialApplications": "Contact Process for industrial manufacturing of sulfuric acid",
+    "safety": "Extremely hazardous; concentrated sulfuric acid causes severe chemical burns.",
+    "wasteDisposal": "Neutralize cautiously with dilute alkali before disposal.",
+    "animation": [
+      "heat-effect",
+      "mist-effect"
+    ]
+  },
+  {
+    "id": "syn-6",
+    "reactants": [
+      "CO2",
+      "H2O"
+    ],
+    "type": "Synthesis / Hydration",
+    "equation": "CO2 + H2O \u2192 H2CO3",
+    "products": [
+      "H2CO3"
+    ],
+    "catalyst": null,
+    "conditions": "High pressure (typically under carbonic saturation)",
+    "reactionRate": "Moderate (equilibrium based)",
+    "activationEnergy": "Low",
+    "enthalpyChange": -17.0,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Slight drop in pH; clear liquid solution forms (reversible equilibrium).",
+    "mechanism": "Dissolution and hydration of gaseous carbon dioxide into unstable carbonic acid.",
+    "industrialApplications": "Carbonated beverage manufacturing, ocean acidification buffer systems",
+    "safety": "Non-toxic and safe at low concentrations.",
+    "wasteDisposal": "Can be safely diluted and disposed down the drain.",
+    "animation": [
+      "dissolution-effect"
+    ]
+  },
+  {
+    "id": "syn-7",
+    "reactants": [
+      "NO",
+      "O2"
+    ],
+    "type": "Synthesis / Oxidation",
+    "equation": "2 NO + O2 \u2192 2 NO2",
+    "products": [
+      "NO2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -114.1,
+    "thermicity": "Exothermic",
+    "observation": "Colorless nitric oxide gas instantly turns into reddish-brown nitrogen dioxide gas.",
+    "mechanism": "Gas-phase oxidation of nitrogen monoxide to nitrogen dioxide.",
+    "industrialApplications": "Ostwald Process for nitric acid production",
+    "safety": "Nitrogen dioxide gas is highly toxic and irritating to the respiratory tract; use fume hood.",
+    "wasteDisposal": "Scrub toxic gases through an alkaline solution before venting.",
+    "animation": [
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "syn-8",
+    "reactants": [
+      "N2",
+      "H2"
+    ],
+    "type": "Synthesis / Haber-Bosch Process",
+    "equation": "N2 + 3 H2 \u2192 2 NH3",
+    "products": [
+      "NH3"
+    ],
+    "catalyst": "Iron catalyst with potassium promoter",
+    "conditions": "High pressure (150-200 atm), elevated temperature (400-450°C)",
+    "reactionRate": "Moderate with catalyst",
+    "activationEnergy": "High (without catalyst)",
+    "enthalpyChange": -92.4,
+    "thermicity": "Exothermic",
+    "observation": "Colorless ammonia gas with a pungent, sharp smell is synthesized.",
+    "mechanism": "Catalytic cleavage of N≡N triple bond on iron surface and step-wise hydrogen addition.",
+    "industrialApplications": "Large-scale industrial production of nitrogenous fertilizers",
+    "safety": "Ammonia gas is pungent, corrosive, and toxic at elevated levels.",
+    "wasteDisposal": "Absorb gas in water to dilute as ammonium hydroxide.",
+    "animation": [
+      "catalyst-surface-effect"
+    ]
+  },
+  {
+    "id": "syn-9",
+    "reactants": [
+      "Cu",
+      "O2"
+    ],
+    "type": "Synthesis / Oxidation",
+    "equation": "2 Cu + O2 \u2192 2 CuO",
+    "products": [
+      "CuO"
+    ],
+    "catalyst": null,
+    "conditions": "Strong heating in air",
+    "reactionRate": "Slow to moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -312.0,
+    "thermicity": "Exothermic",
+    "observation": "Shiny reddish-brown copper metal surface gradually turns into a dull black layer of copper(II) oxide.",
+    "mechanism": "Thermal oxidation of copper metal in presence of atmospheric oxygen.",
+    "industrialApplications": "Semiconductor materials, pigments, ceramic glazes",
+    "safety": "Avoid breathing oxide dust or smoke while heating.",
+    "wasteDisposal": "Dispose of metal oxide solids in heavy metal disposal bins.",
+    "animation": [
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "syn-10",
+    "reactants": [
+      "CaO",
+      "CO2"
+    ],
+    "type": "Synthesis / Carbonation",
+    "equation": "CaO + CO2 \u2192 CaCO3",
+    "products": [
+      "CaCO3"
+    ],
+    "catalyst": null,
+    "conditions": "Dry ambient or slightly elevated temperature",
+    "reactionRate": "Slow at room temperature, fast with moisture",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -178.0,
+    "thermicity": "Exothermic",
+    "observation": "White calcium oxide absorbs carbon dioxide gas and expands slightly to form solid calcium carbonate.",
+    "mechanism": "Reversible gas-solid combination forming ionic calcium carbonate salt.",
+    "industrialApplications": "Carbon capture, lime mortar hardening, cement production cycle",
+    "safety": "Avoid inhaling fine dust particles; non-toxic final product.",
+    "wasteDisposal": "Safe for standard inert solid waste disposal.",
+    "animation": [
+      "solid-expansion-effect"
+    ]
+  },
+  {
+    "id": "disp-1",
+    "reactants": [
+      "Mg",
+      "CuSO4"
+    ],
+    "type": "Single Displacement",
+    "equation": "Mg + CuSO4 \u2192 MgSO4 + Cu",
+    "products": [
+      "MgSO4",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast and vigorous",
+    "activationEnergy": "Low",
+    "enthalpyChange": -531.0,
+    "thermicity": "Exothermic",
+    "observation": "Blue copper sulfate solution fades to colorless; reddish-brown copper metal deposits on the magnesium strip.",
+    "mechanism": "More reactive magnesium displaces copper from copper sulfate solution through electron transfer.",
+    "industrialApplications": "Hydrometallurgy, extraction and purification of copper metal",
+    "safety": "Mildly exothermic; copper sulfate is harmful if swallowed and irritating to skin.",
+    "wasteDisposal": "Dispose of heavy metal copper residues in designated chemical waste containers.",
+    "animation": [
+      "color-fade-effect",
+      "metal-deposition"
+    ]
+  },
+  {
+    "id": "disp-2",
+    "reactants": [
+      "Al",
+      "CuSO4"
+    ],
+    "type": "Single Displacement",
+    "equation": "2 Al + 3 CuSO4 \u2192 Al2(SO4)3 + 3 Cu",
+    "products": [
+      "Al2(SO4)3",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution (faster if oxide layer is disrupted)",
+    "reactionRate": "Moderate (accelerates as oxide layer dissolves)",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -1140.0,
+    "thermicity": "Exothermic",
+    "observation": "Blue solution turns colorless slowly; reddish-brown copper flakes accumulate around aluminum foil.",
+    "mechanism": "Aluminum acts as a stronger reducing agent than copper, releasing copper solid while forming aluminum sulfate.",
+    "industrialApplications": "Metal replacement reactions, wastewater treatment metal recovery",
+    "safety": "Avoid contact with copper sulfate solution; handle reaction vessel with care as it warms up.",
+    "wasteDisposal": "Collect copper precipitates separately and dispose per heavy metal guidelines.",
+    "animation": [
+      "color-fade-effect",
+      "metal-deposition"
+    ]
+  },
+  {
+    "id": "disp-3",
+    "reactants": [
+      "Zn",
+      "CuSO4"
+    ],
+    "type": "Single Displacement",
+    "equation": "Zn + CuSO4 \u2192 ZnSO4 + Cu",
+    "products": [
+      "ZnSO4",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -218.7,
+    "thermicity": "Exothermic",
+    "observation": "Bright blue solution fades to clear; dark reddish-brown copper solid precipitates on the zinc surface.",
+    "mechanism": "Zinc loses electrons to Cu2+ ions in solution, displacing copper ions as neutral copper metal.",
+    "industrialApplications": "Galvanic cells, zinc chemistry, metal recovery",
+    "safety": "Skin and eye irritant; wear standard safety goggles and protective gloves.",
+    "wasteDisposal": "Collect metal waste for heavy metal recovery.",
+    "animation": [
+      "color-fade-effect",
+      "metal-deposition"
+    ]
+  },
+  {
+    "id": "disp-4",
+    "reactants": [
+      "Cl2",
+      "NaBr"
+    ],
+    "type": "Single Displacement / Halogen Displacement",
+    "equation": "Cl2 + 2 NaBr \u2192 2 NaCl + Br2",
+    "products": [
+      "NaCl",
+      "Br2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -99.8,
+    "thermicity": "Exothermic",
+    "observation": "Clear sodium bromide solution turns orange-red due to liberated elemental bromine.",
+    "mechanism": "More electronegative chlorine oxidizes bromide ions to free bromine gas/liquid in solution.",
+    "industrialApplications": "Extraction of elemental bromine from seawater or brine",
+    "safety": "Chlorine gas and elemental bromine are toxic and corrosive; handle inside a fume hood.",
+    "wasteDisposal": "Neutralize halogen excess with sodium thiosulfate before liquid disposal.",
+    "animation": [
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "disp-5",
+    "reactants": [
+      "Cl2",
+      "KI"
+    ],
+    "type": "Single Displacement / Halogen Displacement",
+    "equation": "Cl2 + 2 KI \u2192 2 KCl + I2",
+    "products": [
+      "KCl",
+      "I2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -152.6,
+    "thermicity": "Exothermic",
+    "observation": "Clear solution rapidly turns dark brown / purple due to the formation of iodine.",
+    "mechanism": "Reactive chlorine gas oxidizes iodide ions into elemental iodine.",
+    "industrialApplications": "Qualitative test for iodide ions, commercial iodine recovery",
+    "safety": "Avoid inhaling fumes; chlorine and free iodine are irritants.",
+    "wasteDisposal": "Treat with sodium thiosulfate to reduce free iodine before disposal.",
+    "animation": [
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "precip-2",
+    "reactants": [
+      "BaCl2",
+      "Na2CO3"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "BaCl2 + Na2CO3 \u2192 BaCO3\u2193 + 2 NaCl",
+    "products": [
+      "BaCO3",
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -12.5,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Heavy white cloudy precipitate of barium carbonate forms instantly.",
+    "mechanism": "Barium ions combine with carbonate ions to form highly insoluble barium carbonate.",
+    "industrialApplications": "Brick manufacturing, glass production, removal of sulfate impurities",
+    "safety": "Barium compounds are toxic if ingested; avoid skin contact and wash thoroughly.",
+    "wasteDisposal": "Collect solid barium waste in hazardous waste containers; do not drain.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-3",
+    "reactants": [
+      "Pb(NO3)2",
+      "Na2SO4"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "Pb(NO3)2 + Na2SO4 \u2192 PbSO4\u2193 + 2 NaNO3",
+    "products": [
+      "PbSO4",
+      "NaNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -17.2,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Dense white precipitate of lead(II) sulfate forms immediately upon mixing.",
+    "mechanism": "Lead ions combine with sulfate ions due to low solubility of lead sulfate in water.",
+    "industrialApplications": "Lead-acid battery chemistry, paint pigment production",
+    "safety": "Lead salts are cumulative toxic hazards; wear gloves and protective gear.",
+    "wasteDisposal": "Strict heavy metal disposal guidelines apply; collect all lead residues.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-4",
+    "reactants": [
+      "AgNO3",
+      "Na2CO3"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "2 AgNO3 + Na2CO3 \u2192 Ag2CO3\u2193 + 2 NaNO3",
+    "products": [
+      "Ag2CO3",
+      "NaNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -84.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale yellow / beige precipitate of silver carbonate forms rapidly upon mixing.",
+    "mechanism": "Silver ions rapidly precipitate with carbonate ions forming silver carbonate.",
+    "industrialApplications": "Organic synthesis reagents, preparation of silver compounds",
+    "safety": "Silver nitrate causes skin staining and chemical burns; wear proper lab PPE.",
+    "wasteDisposal": "Recycle or dispose of silver salts per toxic chemical guidelines.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-5",
+    "reactants": [
+      "FeSO4",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "FeSO4 + 2 NaOH \u2192 Fe(OH)2\u2193 + Na2SO4",
+    "products": [
+      "Fe(OH)2",
+      "Na2SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, oxygen-free solution preferred",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -48.2,
+    "thermicity": "Exothermic",
+    "observation": "Dirty-green precipitate forms immediately, gradually turning brown/reddish in air due to oxidation.",
+    "mechanism": "Iron(II) ions react with hydroxide ions forming gelatinous ferrous hydroxide precipitate.",
+    "industrialApplications": "Wastewater heavy metal treatment, coagulation processes",
+    "safety": "Sodium hydroxide is caustic and causes severe eye/skin irritation.",
+    "wasteDisposal": "Neutralize liquid and collect metal hydroxide precipitate in solid waste.",
+    "animation": [
+      "precipitate-formation",
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "disp-6",
+    "reactants": [
+      "Mg",
+      "HCl"
+    ],
+    "type": "Single Displacement / Acid-Metal",
+    "equation": "Mg + 2 HCl \u2192 MgCl2 + H2\u2191",
+    "products": [
+      "MgCl2",
+      "H2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, dilute aqueous acid",
+    "reactionRate": "Very fast and vigorous",
+    "activationEnergy": "Low",
+    "enthalpyChange": -466.8,
+    "thermicity": "Exothermic",
+    "observation": "Vigorous effervescence (bubbling) with rapid evolution of colorless hydrogen gas; magnesium ribbon dissolves and solution warms up.",
+    "mechanism": "Magnesium metal rapidly donates electrons to hydrogen ions (H+), producing elemental hydrogen gas and aqueous magnesium chloride.",
+    "industrialApplications": "Laboratory production of hydrogen gas, metal etching, chemical synthesis",
+    "safety": "Hydrochloric acid is corrosive; hydrogen gas is highly flammable—keep away from open flames.",
+    "wasteDisposal": "Neutralize remaining acid before flushing solution down the drain with excess water.",
+    "animation": [
+      "bubbling-effect",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "disp-7",
+    "reactants": [
+      "Al",
+      "HCl"
+    ],
+    "type": "Single Displacement / Acid-Metal",
+    "equation": "2 Al + 6 HCl \u2192 2 AlCl3 + 3 H2\u2191",
+    "products": [
+      "AlCl3",
+      "H2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature (brief delay while oxide layer dissolves)",
+    "reactionRate": "Fast (after induction period)",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -1004.0,
+    "thermicity": "Exothermic",
+    "observation": "Initial delay followed by vigorous bubbling, heat generation, and aluminum dissolving to form a clear aqueous solution.",
+    "mechanism": "Hydrochloric acid strips the protective aluminum oxide coating, allowing aluminum to oxidize and reduce H+ ions to H2 gas.",
+    "industrialApplications": "Aluminum chloride synthesis, metal pickling and etching",
+    "safety": "Highly exothermic reaction; wear protective gloves, safety goggles, and handle in a well-ventilated area.",
+    "wasteDisposal": "Neutralize unreacted acid carefully with dilute base and wash diluted solution with abundant water.",
+    "animation": [
+      "bubbling-effect",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "disp-3",
+    "reactants": [
+      "Zn",
+      "CuSO4"
+    ],
+    "type": "Single Displacement",
+    "equation": "Zn + CuSO4 \u2192 ZnSO4 + Cu",
+    "products": [
+      "ZnSO4",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -218.7,
+    "thermicity": "Exothermic",
+    "observation": "Bright blue copper sulfate solution gradually fades to clear, and dark reddish-brown copper deposits on the zinc strip.",
+    "mechanism": "Zinc metal transfers two electrons to copper ions (Cu2+), precipitating solid copper and dissolving as Zn2+ ions.",
+    "industrialApplications": "Galvanic battery cells, hydrometallurgical copper extraction",
+    "safety": "Copper sulfate is harmful if swallowed and irritates skin and eyes; wear protective gear.",
+    "wasteDisposal": "Filter out solid copper and collect liquid in designated heavy metal waste containers.",
+    "animation": [
+      "color-fade-effect",
+      "metal-deposition"
+    ]
+  },
+  {
+    "id": "disp-1",
+    "reactants": [
+      "Mg",
+      "CuSO4"
+    ],
+    "type": "Single Displacement",
+    "equation": "Mg + CuSO4 \u2192 MgSO4 + Cu",
+    "products": [
+      "MgSO4",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Very fast and vigorous",
+    "activationEnergy": "Low",
+    "enthalpyChange": -531.0,
+    "thermicity": "Exothermic",
+    "observation": "Rapid fading of blue solution color with a dark reddish-brown copper coating rapidly building up on the magnesium ribbon.",
+    "mechanism": "More electropositive magnesium displaces copper from copper sulfate solution via rapid redox electron transfer.",
+    "industrialApplications": "Metallurgical displacement, chemical synthesis demo",
+    "safety": "Reaction vessel can get quite hot; handle with care and avoid contact with reagents.",
+    "wasteDisposal": "Dispose of heavy metal residues per standard chemical safety protocols.",
+    "animation": [
+      "color-fade-effect",
+      "metal-deposition"
+    ]
+  },
+  {
+    "id": "disp-2",
+    "reactants": [
+      "Al",
+      "CuSO4"
+    ],
+    "type": "Single Displacement",
+    "equation": "2 Al + 3 CuSO4 \u2192 Al2(SO4)3 + 3 Cu",
+    "products": [
+      "Al2(SO4)3",
+      "Cu"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Moderate to fast",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -1140.0,
+    "thermicity": "Exothermic",
+    "observation": "Blue copper sulfate solution turns colorless while reddish-brown copper flakes precipitate on the aluminum surface.",
+    "mechanism": "Aluminum acts as a strong reducing agent, reducing Cu2+ ions to elemental copper while forming soluble aluminum sulfate.",
+    "industrialApplications": "Wastewater copper recovery, hydrometallurgy",
+    "safety": "Copper sulfate irritates skin/eyes; wear laboratory safety goggles and protective gloves.",
+    "wasteDisposal": "Collect copper metal precipitates separately for heavy metal recycling.",
+    "animation": [
+      "color-fade-effect",
+      "metal-deposition"
+    ]
+  },
+  {
+    "id": "disp-4",
+    "reactants": [
+      "Cl2",
+      "NaBr"
+    ],
+    "type": "Single Displacement / Halogen Displacement",
+    "equation": "Cl2 + 2 NaBr \u2192 2 NaCl + Br2",
+    "products": [
+      "NaCl",
+      "Br2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -99.8,
+    "thermicity": "Exothermic",
+    "observation": "Clear, colorless sodium bromide solution turns yellow-orange to reddish-brown due to liberated free bromine.",
+    "mechanism": "More electronegative chlorine oxidizes bromide ions (Br-) to elemental bromine gas/solution.",
+    "industrialApplications": "Industrial extraction of elemental bromine from seawater and natural brine",
+    "safety": "Chlorine and bromine fumes are highly toxic and corrosive; perform exclusively inside a fume hood.",
+    "wasteDisposal": "Neutralize halogen excess with sodium thiosulfate before liquid disposal.",
+    "animation": [
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "precip-2",
+    "reactants": [
+      "BaCl2",
+      "Na2CO3"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "BaCl2 + Na2CO3 \u2192 BaCO3\u2193 + 2 NaCl",
+    "products": [
+      "BaCO3",
+      "NaCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -12.5,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Dense, white cloudy precipitate of barium carbonate forms immediately upon mixing clear solutions.",
+    "mechanism": "Barium ions (Ba2+) and carbonate ions (CO3 2-) combine to form insoluble barium carbonate.",
+    "industrialApplications": "Ceramic glazes, glass manufacturing, chemical purification processes",
+    "safety": "Barium compounds are toxic if ingested; avoid skin contact and wash thoroughly after handling.",
+    "wasteDisposal": "Do not flush down drain; collect insoluble barium precipitate as toxic heavy metal waste.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-3",
+    "reactants": [
+      "Pb(NO3)2",
+      "Na2SO4"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "Pb(NO3)2 + Na2SO4 \u2192 PbSO4\u2193 + 2 NaNO3",
+    "products": [
+      "PbSO4",
+      "NaNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -17.2,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Immediate formation of a thick, heavy white precipitate of lead(II) sulfate.",
+    "mechanism": "Lead ions (Pb2+) unite with sulfate ions (SO4 2-) to precipitate lead sulfate due to its very low solubility.",
+    "industrialApplications": "Lead-acid battery production, paint pigment manufacturing",
+    "safety": "Lead salts are toxic hazards; wear gloves, safety glasses, and prevent inhalation or ingestion.",
+    "wasteDisposal": "Collect all lead-containing residues in marked toxic heavy metal waste bins.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-4",
+    "reactants": [
+      "AgNO3",
+      "Na2CO3"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "2 AgNO3 + Na2CO3 \u2192 Ag2CO3\u2193 + 2 NaNO3",
+    "products": [
+      "Ag2CO3",
+      "NaNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -84.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale yellow / beige precipitate of silver carbonate forms instantly upon mixing clear solutions.",
+    "mechanism": "Silver ions (Ag+) pair with carbonate ions (CO3 2-) to yield an insoluble silver carbonate precipitate.",
+    "industrialApplications": "Preparation of silver catalysts, specialty silver salts, organic synthesis",
+    "safety": "Silver nitrate stains skin and clothing dark brown/black; avoid direct contact.",
+    "wasteDisposal": "Recycle or collect silver compounds in designated inorganic waste containers.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "precip-5",
+    "reactants": [
+      "FeSO4",
+      "NaOH"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "FeSO4 + 2 NaOH \u2192 Fe(OH)2\u2193 + Na2SO4",
+    "products": [
+      "Fe(OH)2",
+      "Na2SO4"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -48.2,
+    "thermicity": "Exothermic",
+    "observation": "Dirty gelatinous green precipitate forms instantly, which darkens/turns brown on exposure to air.",
+    "mechanism": "Ferrous ions (Fe2+) pair with hydroxide ions (OH-) to form insoluble iron(II) hydroxide.",
+    "industrialApplications": "Wastewater heavy metal treatment, coagulation and flocculation processes",
+    "safety": "Sodium hydroxide is caustic and causes severe burns; handle with chemical-resistant gloves.",
+    "wasteDisposal": "Neutralize liquid fraction and collect hydroxide solids for appropriate solid waste disposal.",
+    "animation": [
+      "precipitate-formation",
+      "color-change-effect"
+    ]
+  },
+  {
+    "id": "new-neut-1",
+    "reactants": [
+      "HNO3",
+      "NH4OH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "HNO3 + NH4OH → NH4NO3 + H2O",
+    "products": [
+      "NH4NO3",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -51.5,
+    "thermicity": "Exothermic",
+    "observation": "Clear solution warms up slightly; no color change.",
+    "mechanism": "Proton transfer from nitric acid to aqueous ammonia forms ammonium nitrate salt.",
+    "industrialApplications": "Industrial production of ammonium nitrate fertilizer and explosives.",
+    "safety": "Corrosive reagents; wear eye protection and gloves.",
+    "wasteDisposal": "Dilute properly before disposal according to local regulations.",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-neut-2",
+    "reactants": [
+      "CH3COOH",
+      "KOH"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "CH3COOH + KOH → CH3COOK + H2O",
+    "products": [
+      "CH3COOK",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -55.8,
+    "thermicity": "Exothermic",
+    "observation": "Mild temperature rise, colorless solution.",
+    "mechanism": "Weak acetic acid donates proton to strong potassium hydroxide base.",
+    "industrialApplications": "Potassium acetate production for de-icing and food preservation.",
+    "safety": "KOH is highly caustic; handle with care.",
+    "wasteDisposal": "Neutralize and dilute with copious water down the drain.",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-neut-3",
+    "reactants": [
+      "H2SO4",
+      "Ca(OH)2"
+    ],
+    "type": "Neutralization / Acid-Base",
+    "equation": "H2SO4 + Ca(OH)2 → CaSO4 + 2 H2O",
+    "products": [
+      "CaSO4",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, slurry/solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -112.5,
+    "thermicity": "Exothermic",
+    "observation": "White suspension turns warm; sparingly soluble calcium sulfate precipitates.",
+    "mechanism": "Protons from diprotic sulfuric acid neutralize hydroxide ions from calcium hydroxide.",
+    "industrialApplications": "Flue-gas desulfurization, industrial acid wastewater neutralization.",
+    "safety": "Sulfuric acid is highly corrosive; wear skin and eye protection.",
+    "wasteDisposal": "Filter solid precipitate (gypsum) and dispose as solid waste.",
+    "animation": [
+      "heat-effect",
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "new-decomp-1",
+    "reactants": [
+      "CaCO3"
+    ],
+    "type": "Thermal Decomposition",
+    "equation": "CaCO3 →(heat) CaO + CO2↑",
+    "products": [
+      "CaO",
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "High temperature (>840°C)",
+    "reactionRate": "Moderate at high heat",
+    "activationEnergy": "High",
+    "enthalpyChange": 178.3,
+    "thermicity": "Endothermic",
+    "observation": "White solid crumbles, colorless gas evolves which turns limewater milky.",
+    "mechanism": "Thermal energy breaks ionic carbon-oxygen bonds in carbonate ion, liberating carbon dioxide.",
+    "industrialApplications": "Lime kiln operation, cement manufacturing, quicklime production.",
+    "safety": "High temperatures required; hot quicklime causes thermal and chemical burns.",
+    "wasteDisposal": "Cool solid calcium oxide and store or dispose as dry solid waste.",
+    "animation": [
+      "heat-effect",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "new-decomp-2",
+    "reactants": [
+      "Pb(NO3)2"
+    ],
+    "type": "Thermal Decomposition",
+    "equation": "2 Pb(NO3)2 →(heat) 2 PbO + 4 NO2↑ + O2↑",
+    "products": [
+      "PbO",
+      "NO2",
+      "O2"
+    ],
+    "catalyst": null,
+    "conditions": "Strong heating (dry salt)",
+    "reactionRate": "Moderate",
+    "activationEnergy": "High",
+    "enthalpyChange": 301.2,
+    "thermicity": "Endothermic",
+    "observation": "Crackling sound (decrepitation); brown toxic NO2 gas fumes; yellow-brown solid residue (PbO) remains.",
+    "mechanism": "Heat decomposes nitrate lattice into metal oxide, nitrogen dioxide gas, and oxygen.",
+    "industrialApplications": "Qualitative inorganic analysis, lead glass manufacturing.",
+    "safety": "NO2 gas is highly toxic and irritating; lead compounds are poisonous. Use fume hood.",
+    "wasteDisposal": "Collect lead oxide residue as toxic heavy metal waste.",
+    "animation": [
+      "heat-effect",
+      "gas-evolution",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-decomp-3",
+    "reactants": [
+      "Cu(NO3)2"
+    ],
+    "type": "Thermal Decomposition",
+    "equation": "2 Cu(NO3)2 →(heat) 2 CuO + 4 NO2↑ + O2↑",
+    "products": [
+      "CuO",
+      "NO2",
+      "O2"
+    ],
+    "catalyst": null,
+    "conditions": "Strong dry heating",
+    "reactionRate": "Moderate",
+    "activationEnergy": "High",
+    "enthalpyChange": 268.0,
+    "thermicity": "Endothermic",
+    "observation": "Blue crystals turn into a black residue (CuO); dense brown noxious fumes of NO2 evolve.",
+    "mechanism": "Thermal cleavage of copper nitrate into copper oxide, nitrogen dioxide, and oxygen.",
+    "industrialApplications": "Preparation of black copper oxide catalyst, pyrotechnics.",
+    "safety": "Brown NO2 gas is toxic; perform in a fume hood.",
+    "wasteDisposal": "Collect CuO black powder in heavy metal waste.",
+    "animation": [
+      "heat-effect",
+      "gas-evolution",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-decomp-4",
+    "reactants": [
+      "NaHCO3"
+    ],
+    "type": "Thermal Decomposition",
+    "equation": "2 NaHCO3 →(heat) Na2CO3 + H2O + CO2↑",
+    "products": [
+      "Na2CO3",
+      "H2O",
+      "CO2"
+    ],
+    "catalyst": null,
+    "conditions": "Heating above 80°C",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": 129.0,
+    "thermicity": "Endothermic",
+    "observation": "White powder releases water vapor condensation and carbon dioxide gas.",
+    "mechanism": "Bicarbonate ions lose water and carbon dioxide upon heating, converting into stable carbonate.",
+    "industrialApplications": "Baking powder action in cooking, fire extinguishers, soda ash synthesis.",
+    "safety": "Low hazard; hot steam evolution.",
+    "wasteDisposal": "Sodium carbonate is non-hazardous solid waste.",
+    "animation": [
+      "heat-effect",
+      "gas-evolution",
+      "steam"
+    ]
+  },
+  {
+    "id": "new-decomp-5",
+    "reactants": [
+      "CuSO4.5H2O"
+    ],
+    "type": "Dehydration / Thermal Decomposition",
+    "equation": "CuSO4.5H2O →(heat) CuSO4 + 5 H2O↑",
+    "products": [
+      "CuSO4",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Heating above 100°C",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": 78.0,
+    "thermicity": "Endothermic",
+    "observation": "Bright blue crystalline hydrate turns into an anhydrous dull white powder; water droplets condense on cool container walls.",
+    "mechanism": "Thermal energy breaks coordination bonds holding water molecules in the crystal lattice.",
+    "industrialApplications": "Test for moisture/water presence, desiccant chemistry.",
+    "safety": "Avoid inhaling anhydrous powder; copper salts irritate skin.",
+    "wasteDisposal": "Collect copper residues in heavy metal disposal container.",
+    "animation": [
+      "heat-effect",
+      "color-change",
+      "steam"
+    ]
+  },
+  {
+    "id": "new-syn-11",
+    "reactants": [
+      "Mg",
+      "N2"
+    ],
+    "type": "Synthesis / Direct Combination",
+    "equation": "3 Mg + N2 → Mg3N2",
+    "products": [
+      "Mg3N2"
+    ],
+    "catalyst": null,
+    "conditions": "High temperature combustion in pure nitrogen environment",
+    "reactionRate": "Fast once ignited",
+    "activationEnergy": "High",
+    "enthalpyChange": -461.0,
+    "thermicity": "Exothermic",
+    "observation": "Magnesium burns with intense glow forming a greenish-yellow powder of magnesium nitride.",
+    "mechanism": "Direct combination of electropositive magnesium with nitrogen gas.",
+    "industrialApplications": "Nitride ceramic preparation, nitrogen fixation chemistry.",
+    "safety": "Intense light emission (UV radiation); wear shade 5 safety goggles.",
+    "wasteDisposal": "Magnesium nitride hydrolyzes with water to give ammonia; store dry or neutralize safely.",
+    "animation": [
+      "flame",
+      "sparks"
+    ]
+  },
+  {
+    "id": "new-syn-12",
+    "reactants": [
+      "P4O10",
+      "H2O"
+    ],
+    "type": "Synthesis / Hydration",
+    "equation": "P4O10 + 6 H2O → 4 H3PO4",
+    "products": [
+      "H3PO4"
+    ],
+    "catalyst": null,
+    "conditions": "Exothermic hydration in water",
+    "reactionRate": "Vigorous / Violent",
+    "activationEnergy": "Very Low",
+    "enthalpyChange": -377.0,
+    "thermicity": "Exothermic",
+    "observation": "Hissing noise, release of large amount of heat, forming a clear acidic solution.",
+    "mechanism": "Acid anhydride P4O10 reacts rapidly with water to yield orthophosphoric acid.",
+    "industrialApplications": "Production of food-grade and industrial phosphoric acid.",
+    "safety": "P4O10 is extremely hygroscopic and violent on water contact; wear full face shield.",
+    "wasteDisposal": "Neutralize acidic solution with sodium hydroxide before disposal.",
+    "animation": [
+      "heat-effect",
+      "steam"
+    ]
+  },
+  {
+    "id": "new-precip-11",
+    "reactants": [
+      "FeCl3",
+      "K4[Fe(CN)6]"
+    ],
+    "type": "Complexation / Precipitation",
+    "equation": "4 FeCl3 + 3 K4[Fe(CN)6] → Fe4[Fe(CN)6]3↓ + 12 KCl",
+    "products": [
+      "Fe4[Fe(CN)6]3",
+      "KCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -45.0,
+    "thermicity": "Exothermic",
+    "observation": "Intense dark deep blue precipitate ('Prussian Blue') forms immediately.",
+    "mechanism": "Coordination cross-linking between ferric ions and hexacyanoferrate(II) complexes.",
+    "industrialApplications": "Blue pigments in inks and paints, antidote for thallium/cesium poisoning.",
+    "safety": "Avoid strong acid addition which may liberate toxic hydrogen cyanide gas.",
+    "wasteDisposal": "Filter solid blue pigment and dispose per local toxic waste rules.",
+    "animation": [
+      "precipitate-formation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-precip-12",
+    "reactants": [
+      "NiCl2",
+      "Dimethyglyoxime"
+    ],
+    "type": "Complexation / Precipitation",
+    "equation": "Ni2+ + 2 DMG → Ni(DMG)2↓ + 2 H+",
+    "products": [
+      "Ni(DMG)2"
+    ],
+    "catalyst": "Ammonium hydroxide (alkaline medium)",
+    "conditions": "Slightly ammoniacal room temperature solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -32.0,
+    "thermicity": "Exothermic",
+    "observation": "Voluminous bright strawberry-red precipitate forms.",
+    "mechanism": "Chelation of nickel(II) ion by two dimethylglyoximate molecules forming a insoluble square planar complex.",
+    "industrialApplications": "Gravimetric quantitative determination of nickel ions in metallurgy.",
+    "safety": "Nickel compounds are potential allergens/carcinogens; wear protective gloves.",
+    "wasteDisposal": "Collect nickel complex waste in heavy metal containers.",
+    "animation": [
+      "precipitate-formation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-precip-13",
+    "reactants": [
+      "CoCl2",
+      "KNCS"
+    ],
+    "type": "Complexation / Precipitation",
+    "equation": "Co2+ + 4 SCN- → [Co(SCN)4]2-",
+    "products": [
+      "[Co(SCN)4]2-"
+    ],
+    "catalyst": null,
+    "conditions": "Alcoholic or concentrated aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -15.0,
+    "thermicity": "Exothermic",
+    "observation": "Pink cobalt solution turns into a intense royal blue thiocyanatocobaltate(II) complex.",
+    "mechanism": "Ligand exchange replacing water ligands with thiocyanate ligands around cobalt center.",
+    "industrialApplications": "Qualitative detection of cobalt ions, moisture indicator chemistry.",
+    "safety": "Thiocyanate and cobalt compounds are toxic; wear gloves.",
+    "wasteDisposal": "Do not pour down drain; collect in cobalt chemical waste.",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-precip-14",
+    "reactants": [
+      "AgNO3",
+      "K2CrO4"
+    ],
+    "type": "Double Displacement / Precipitation",
+    "equation": "2 AgNO3 + K2CrO4 → Ag2CrO4↓ + 2 KNO3",
+    "products": [
+      "Ag2CrO4",
+      "KNO3"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -62.0,
+    "thermicity": "Exothermic",
+    "observation": "Brick-red precipitate of silver chromate forms immediately.",
+    "mechanism": "Silver ions combine with chromate ions to form insoluble red silver chromate.",
+    "industrialApplications": "Indicator in Mohr's argentometric titration of halides.",
+    "safety": "Chromates are toxic and carcinogenic; silver stains skin. Use gloves.",
+    "wasteDisposal": "Dispose as hazardous hexavalent chromium and silver waste.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "new-precip-15",
+    "reactants": [
+      "HgCl2",
+      "KI"
+    ],
+    "type": "Double Displacement / Complexation",
+    "equation": "HgCl2 + 2 KI → HgI2↓ + 2 KCl",
+    "products": [
+      "HgI2",
+      "KCl"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -55.0,
+    "thermicity": "Exothermic",
+    "observation": "Brilliant scarlet-red precipitate of mercury(II) iodide forms (dissolves in excess KI to clear Nessler's reagent).",
+    "mechanism": "Precipitation of insoluble mercuric iodide followed by complexation to tetraiodomercurate(II) in excess reagent.",
+    "industrialApplications": "Preparation of Nessler's reagent for ammonia testing.",
+    "safety": "Mercury compounds are extremely toxic neurotoxins. Handle with extreme care.",
+    "wasteDisposal": "Strict hazardous waste protocols; collect all mercury waste separately.",
+    "animation": [
+      "precipitate-formation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-disp-8",
+    "reactants": [
+      "Fe",
+      "HCl"
+    ],
+    "type": "Single Displacement",
+    "equation": "Fe + 2 HCl → FeCl2 + H2↑",
+    "products": [
+      "FeCl2",
+      "H2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -87.9,
+    "thermicity": "Exothermic",
+    "observation": "Effervescence of hydrogen gas; solution turns pale green due to Fe2+ ions.",
+    "mechanism": "Iron metal is oxidized to ferrous ions while protons are reduced to elemental hydrogen gas.",
+    "industrialApplications": "Production of ferrous chloride, chemical pickling of iron plates.",
+    "safety": "Hydrogen gas is flammable; HCl is corrosive.",
+    "wasteDisposal": "Neutralize remaining acid before disposal.",
+    "animation": [
+      "bubble-animation",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "new-disp-9",
+    "reactants": [
+      "Zn",
+      "AgNO3"
+    ],
+    "type": "Single Displacement / Redox",
+    "equation": "Zn + 2 AgNO3 → Zn(NO3)2 + 2 Ag",
+    "products": [
+      "Zn(NO3)2",
+      "Ag"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -366.0,
+    "thermicity": "Exothermic",
+    "observation": "Shiny silver needles/crystals grow rapidly on zinc metal strip; solution remains clear.",
+    "mechanism": "Zinc loses two electrons to reduce two silver ions to metallic silver crystals.",
+    "industrialApplications": "Silver extraction, electrochemical demonstration.",
+    "safety": "Silver nitrate causes skin burns and dark stains.",
+    "wasteDisposal": "Recover metallic silver; dispose zinc nitrate liquid safely.",
+    "animation": [
+      "crystal-formation"
+    ]
+  },
+  {
+    "id": "new-disp-10",
+    "reactants": [
+      "Br2",
+      "KI"
+    ],
+    "type": "Single Displacement / Halogen Displacement",
+    "equation": "Br2 + 2 KI → 2 KBr + I2",
+    "products": [
+      "KBr",
+      "I2"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -92.0,
+    "thermicity": "Exothermic",
+    "observation": "Orange bromine water turns deep dark brown/violet as free iodine is set free.",
+    "mechanism": "More reactive bromine displaces less reactive iodine from iodide salt.",
+    "industrialApplications": "Halogen reactivity trend comparison, organic synthesis.",
+    "safety": "Liquid bromine and vapors cause severe burns; use fume hood.",
+    "wasteDisposal": "Quench excess halogens with sodium thiosulfate before disposal.",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-redox-9",
+    "reactants": [
+      "FeSO4",
+      "KMnO4"
+    ],
+    "type": "Redox Titration",
+    "equation": "10 FeSO4 + 2 KMnO4 + 8 H2SO4 → 5 Fe2(SO4)3 + 2 MnSO4 + K2SO4 + 8 H2O",
+    "products": [
+      "Fe2(SO4)3",
+      "MnSO4",
+      "K2SO4",
+      "H2O"
+    ],
+    "catalyst": "H2SO4 (acid medium)",
+    "conditions": "Acidic aqueous solution, room temperature",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -310.0,
+    "thermicity": "Exothermic",
+    "observation": "Deep purple permanganate solution instantly decolourizes upon addition to green ferrous solution.",
+    "mechanism": "Fe2+ is oxidized to Fe3+ while Mn7+ is reduced to colorless Mn2+.",
+    "industrialApplications": "Quantitative estimation of iron content in ores and pharmaceuticals.",
+    "safety": "Potassium permanganate is a strong oxidant; H2SO4 is corrosive.",
+    "wasteDisposal": "Collect manganese waste in heavy metal containers.",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-redox-10",
+    "reactants": [
+      "I2",
+      "Na2S2O3"
+    ],
+    "type": "Redox Titration",
+    "equation": "I2 + 2 Na2S2O3 → 2 NaI + Na2S4O6",
+    "products": [
+      "NaI",
+      "Na2S4O6"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -158.0,
+    "thermicity": "Exothermic",
+    "observation": "Deep brown iodine solution (or blue starch-iodine complex) turns completely colorless.",
+    "mechanism": "Iodine is reduced to iodide while thiosulfate S2O3(2-) is oxidized to tetrathionate S4O6(2-).",
+    "industrialApplications": "Iodometric volumetric analysis, bleaching agent neutralization, photographic fixing.",
+    "safety": "Iodine causes skin irritation; low overall hazard.",
+    "wasteDisposal": "Dilute and wash solution down the sink.",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-redox-11",
+    "reactants": [
+      "Cu",
+      "HNO3_conc"
+    ],
+    "type": "Redox / Metal Dissolution",
+    "equation": "Cu + 4 HNO3 → Cu(NO3)2 + 2 NO2↑ + 2 H2O",
+    "products": [
+      "Cu(NO3)2",
+      "NO2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Concentrated nitric acid, room temperature",
+    "reactionRate": "Vigorous / Rapid",
+    "activationEnergy": "Low",
+    "enthalpyChange": -212.0,
+    "thermicity": "Exothermic",
+    "observation": "Copper dissolves rapidly, solution turns deep green-blue, dense toxic brown NO2 gas evolves violently.",
+    "mechanism": "Nitric acid acts as a powerful oxidizing agent, oxidizing Cu metal to Cu2+ and reducing nitrate to toxic nitrogen dioxide.",
+    "industrialApplications": "Etching copper printed circuit boards (PCBs), manufacturing copper nitrate.",
+    "safety": "EXTREMELY DANGEROUS: Dense toxic NO2 gas fumes; highly corrosive acid. Fume hood mandatory.",
+    "wasteDisposal": "Neutralize remaining acid and collect copper solution for metal recovery.",
+    "animation": [
+      "gas-evolution",
+      "color-change",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-redox-12",
+    "reactants": [
+      "Cu",
+      "HNO3_dil"
+    ],
+    "type": "Redox / Metal Dissolution",
+    "equation": "3 Cu + 8 HNO3 → 3 Cu(NO3)2 + 2 NO↑ + 4 H2O",
+    "products": [
+      "Cu(NO3)2",
+      "NO",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Dilute nitric acid, gentle warming",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -180.0,
+    "thermicity": "Exothermic",
+    "observation": "Solution turns bright blue, colorless NO gas evolves which turns brown at neck of tube upon air contact.",
+    "mechanism": "Dilute nitric acid oxidizes copper to Cu2+ while reducing nitrate ions to nitric oxide (NO).",
+    "industrialApplications": "Preparation of pure copper nitrate salt.",
+    "safety": "NO gas turns to toxic NO2 in air; perform in fume hood.",
+    "wasteDisposal": "Collect copper waste in heavy metal containers.",
+    "animation": [
+      "bubble-animation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-redox-13",
+    "reactants": [
+      "Al",
+      "Fe2O3"
+    ],
+    "type": "Thermite Reaction / Redox",
+    "equation": "2 Al + Fe2O3 →(ignite) Al2O3 + 2 Fe",
+    "products": [
+      "Al2O3",
+      "Fe"
+    ],
+    "catalyst": null,
+    "conditions": "High ignition temperature (magnesium ribbon fuse required)",
+    "reactionRate": "Extremely fast and violent once ignited",
+    "activationEnergy": "Very High",
+    "enthalpyChange": -852.0,
+    "thermicity": "Highly Exothermic",
+    "observation": "Blinding light, intense sparks, white hot molten liquid iron metal settles at bottom.",
+    "mechanism": "Aluminum strongly reduces ferric oxide to liquid iron metal due to high lattice enthalpy of Al2O3.",
+    "industrialApplications": "On-site railway track welding, incendiary devices, metallurgy.",
+    "safety": "EXTREME HAZARD: Temperature exceeds 2500°C. Never perform indoors or near moisture.",
+    "wasteDisposal": "Allow slag and metal to cool completely; dispose as solid metal waste.",
+    "animation": [
+      "flame",
+      "sparks",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-org-9",
+    "reactants": [
+      "C2H4",
+      "Br2"
+    ],
+    "type": "Organic / Halogen Addition",
+    "equation": "C2H4 + Br2 → CH2Br-CH2Br",
+    "products": [
+      "1,2-dibromoethane"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, inert solvent (CCl4)",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -121.0,
+    "thermicity": "Exothermic",
+    "observation": "Reddish-brown color of bromine solution rapidly decolourizes.",
+    "mechanism": "Electrophilic addition of bromine across carbon-carbon double bond via a cyclic bromonium ion intermediate.",
+    "industrialApplications": "Standard qualitative test for unsaturation (alkene/alkyne) in organic molecules.",
+    "safety": "Bromine is corrosive and toxic; perform under fume hood.",
+    "wasteDisposal": "Collect halogenated organic waste in designated organic waste bottle.",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-org-10",
+    "reactants": [
+      "C2H2",
+      "H2O"
+    ],
+    "type": "Organic / Hydration",
+    "equation": "C2H2 + H2O →(Hg2+/H2SO4) CH3CHO",
+    "products": [
+      "CH3CHO"
+    ],
+    "catalyst": "HgSO4 / H2SO4",
+    "conditions": "60°C, aqueous acidic catalyst solution",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -150.0,
+    "thermicity": "Exothermic",
+    "observation": "Acetylene gas absorbed; sharp pungent smell of acetaldehyde (ethanal) develops.",
+    "mechanism": "Electrophilic addition of water to alkyne forming an enol intermediate which tautomerizes to ethanal.",
+    "industrialApplications": "Industrial production of acetaldehyde and acetic acid derivatives.",
+    "safety": "Mercuric salts are severe toxins; acetylene is highly flammable.",
+    "wasteDisposal": "Collect mercury containing waste in designated toxic containers.",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-org-11",
+    "reactants": [
+      "C2H5OH"
+    ],
+    "type": "Organic / Dehydration",
+    "equation": "C2H5OH →(conc H2SO4, 170°C) C2H4↑ + H2O",
+    "products": [
+      "C2H4",
+      "H2O"
+    ],
+    "catalyst": "Concentrated H2SO4",
+    "conditions": "Heating at 170°C",
+    "reactionRate": "Moderate",
+    "activationEnergy": "High",
+    "enthalpyChange": 46.0,
+    "thermicity": "Endothermic",
+    "observation": "Flammable gas (ethene) evolves which decolourizes bromine water.",
+    "mechanism": "Acid-catalyzed E1 elimination mechanism removing water from ethanol.",
+    "industrialApplications": "Bio-ethylene manufacturing from fermented ethanol.",
+    "safety": "Hot concentrated sulfuric acid is extremely dangerous; ethene gas is explosive.",
+    "wasteDisposal": "Neutralize cool residual acid mixture before disposal.",
+    "animation": [
+      "heat-effect",
+      "gas-evolution"
+    ]
+  },
+  {
+    "id": "new-org-12",
+    "reactants": [
+      "C6H6",
+      "HNO3"
+    ],
+    "type": "Organic / Electrophilic Substitution",
+    "equation": "C6H6 + HNO3 →(conc H2SO4, 50°C) C6H5NO2 + H2O",
+    "products": [
+      "C6H5NO2",
+      "H2O"
+    ],
+    "catalyst": "Concentrated H2SO4 (nitrating mixture)",
+    "conditions": "Warm at 50-60°C",
+    "reactionRate": "Moderate",
+    "activationEnergy": "High",
+    "enthalpyChange": -117.0,
+    "thermicity": "Exothermic",
+    "observation": "Pale yellow oily layer of nitrobenzene forms with distinct bitter-almond odor.",
+    "mechanism": "Nitronium ion (NO2+) attacks aromatic benzene ring in an electrophilic aromatic substitution.",
+    "industrialApplications": "Synthesis of aniline, dyes, pharmaceuticals, and explosives (TNT precursor).",
+    "safety": "Benzene is carcinogenic; nitrobenzene is toxic through skin absorption.",
+    "wasteDisposal": "Collect organic layer in hazardous organic waste container.",
+    "animation": [
+      "heat-effect",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-org-13",
+    "reactants": [
+      "C6H5OH",
+      "FeCl3"
+    ],
+    "type": "Organic / Complexation Test",
+    "equation": "6 C6H5OH + FeCl3 → [Fe(OC6H5)6]3- + 3 H+ + 3 Cl-",
+    "products": [
+      "Violet Phenol-Iron Complex"
+    ],
+    "catalyst": null,
+    "conditions": "Room temperature, aqueous/neutral solution",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -10.0,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Clear light solution immediately turns into an intense dark violet/purple solution.",
+    "mechanism": "Coordination of phenoxide ligands to iron(III) ion forming a colored charge-transfer complex.",
+    "industrialApplications": "Qualitative confirmatory lab test for enols and phenolic compounds.",
+    "safety": "Phenol causes skin burns; wash immediately if spilled.",
+    "wasteDisposal": "Collect phenol waste in organic toxic waste container.",
+    "animation": [
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-org-14",
+    "reactants": [
+      "CH3COCH3",
+      "I2"
+    ],
+    "type": "Organic / Haloform Reaction",
+    "equation": "CH3COCH3 + 3 I2 + 4 NaOH → CHI3↓ + CH3COONa + 3 NaI + 3 H2O",
+    "products": [
+      "CHI3",
+      "CH3COONa",
+      "NaI",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Warm solution (~50°C)",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -75.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright yellow antiseptic-smelling precipitate of iodoform (CHI3) settles out.",
+    "mechanism": "Multiple halogenation of methyl group followed by nucleophilic cleavage of trihalomethyl anion by hydroxide.",
+    "industrialApplications": "Qualitative laboratory test for methyl ketones and secondary methyl alcohols.",
+    "safety": "Iodine and NaOH are skin irritants/corrosives.",
+    "wasteDisposal": "Filter yellow iodoform solid and collect in organic waste.",
+    "animation": [
+      "precipitate-formation",
+      "color-change"
+    ]
+  },
+  {
+    "id": "new-ind-1",
+    "reactants": [
+      "NH3",
+      "O2"
+    ],
+    "type": "Industrial / Ostwald Process Step 1",
+    "equation": "4 NH3 + 5 O2 →(Pt/Rh, 800°C) 4 NO + 6 H2O",
+    "products": [
+      "NO",
+      "H2O"
+    ],
+    "catalyst": "Platinum-Rhodium gauze catalyst",
+    "conditions": "800°C - 900°C, 1-9 atm pressure",
+    "reactionRate": "Extremely fast with catalyst",
+    "activationEnergy": "High without catalyst",
+    "enthalpyChange": -905.0,
+    "thermicity": "Exothermic",
+    "observation": "Platinum gauze glows bright orange-white heat; colorless NO gas produced.",
+    "mechanism": "Heterogeneous catalytic oxidation of ammonia gas on noble metal surface.",
+    "industrialApplications": "First key step in industrial manufacturing of nitric acid.",
+    "safety": "Extreme high temperatures and pressurized corrosive ammonia gas.",
+    "wasteDisposal": "Industrial closed loop gas processing.",
+    "animation": [
+      "flame",
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-ind-2",
+    "reactants": [
+      "NaCl",
+      "H2O",
+      "CO2",
+      "NH3"
+    ],
+    "type": "Industrial / Solvay Process Step 1",
+    "equation": "NaCl + H2O + CO2 + NH3 → NaHCO3↓ + NH4Cl",
+    "products": [
+      "NaHCO3",
+      "NH4Cl"
+    ],
+    "catalyst": null,
+    "conditions": "30-40°C in carbonating tower",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": -80.0,
+    "thermicity": "Exothermic",
+    "observation": "Sodium bicarbonate precipitates out of brine solution as white solid.",
+    "mechanism": "Ammoniated brine absorbs CO2 forming ammonium bicarbonate which double-displaces with NaCl.",
+    "industrialApplications": "Solvay process for manufacture of sodium carbonate (soda ash).",
+    "safety": "Ammonia gas vapor is pungent and irritating.",
+    "wasteDisposal": "Recycle ammonium chloride to recover ammonia gas.",
+    "animation": [
+      "precipitate-formation"
+    ]
+  },
+  {
+    "id": "new-ind-3",
+    "reactants": [
+      "Ca3(PO4)2",
+      "H2SO4"
+    ],
+    "type": "Industrial / Fertilizer Production",
+    "equation": "Ca3(PO4)2 + 2 H2SO4 → Ca(H2PO4)2 + 2 CaSO4",
+    "products": [
+      "Ca(H2PO4)2",
+      "CaSO4"
+    ],
+    "catalyst": null,
+    "conditions": "Warm concentrated acid digest",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -110.0,
+    "thermicity": "Exothermic",
+    "observation": "Insoluble rock phosphate dissolves to form a solid mixture called 'Superphosphate'.",
+    "mechanism": "Acidulation of insoluble tricalcium phosphate to water-soluble monocalcium phosphate.",
+    "industrialApplications": "Agricultural superphosphate fertilizer manufacturing.",
+    "safety": "Concentrated sulfuric acid digest requires protective industrial gear.",
+    "wasteDisposal": "Solid product sold as commercial agricultural fertilizer.",
+    "animation": [
+      "heat-effect"
+    ]
+  },
+  {
+    "id": "new-gas-10",
+    "reactants": [
+      "Cu",
+      "H2SO4_conc"
+    ],
+    "type": "Redox / Gas Evolution",
+    "equation": "Cu + 2 H2SO4 → CuSO4 + SO2↑ + 2 H2O",
+    "products": [
+      "CuSO4",
+      "SO2",
+      "H2O"
+    ],
+    "catalyst": null,
+    "conditions": "Hot concentrated sulfuric acid",
+    "reactionRate": "Fast with heat",
+    "activationEnergy": "High",
+    "enthalpyChange": -112.0,
+    "thermicity": "Exothermic",
+    "observation": "Solution turns dark blue/black; choking pungent smell of sulfur dioxide gas evolves.",
+    "mechanism": "Hot concentrated sulfuric acid acts as oxidizing agent, oxidizing copper metal to Cu2+ and being reduced to SO2.",
+    "industrialApplications": "Laboratory preparation of sulfur dioxide gas.",
+    "safety": "SO2 gas causes respiratory irritation; conc H2SO4 causes severe skin destruction.",
+    "wasteDisposal": "Scrub SO2 gas in sodium hydroxide trap; neutralize liquid residue.",
+    "animation": [
+      "heat-effect",
+      "gas-evolution",
+      "color-change"
+    ]
+  },
+  {
+    "id": "multi-comp-1",
+    "reactants": ["NaCl", "H2O", "NH3", "CO2"],
+    "type": "Industrial / Solvay Process (4 Components)",
+    "equation": "NaCl + H2O + NH3 + CO2 → NaHCO3↓ + NH4Cl",
+    "products": ["NaHCO3", "NH4Cl"],
+    "catalyst": null,
+    "conditions": "30-40°C in carbonating tower",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Low",
+    "enthalpyChange": -80.0,
+    "thermicity": "Exothermic",
+    "observation": "Sodium bicarbonate precipitates out of ammoniated brine solution as white solid.",
+    "mechanism": "Ammoniated brine absorbs carbon dioxide to produce ammonium bicarbonate, which double-displaces with sodium chloride.",
+    "industrialApplications": "Solvay process for large-scale industrial manufacture of sodium carbonate (soda ash).",
+    "safety": "Ammonia gas vapor is pungent and toxic; handle in closed system.",
+    "wasteDisposal": "Recycle ammonium chloride to recover ammonia via quicklime reaction.",
+    "animation": ["precipitate-formation"]
+  },
+  {
+    "id": "multi-comp-2",
+    "reactants": ["CH3COCH3", "I2", "NaOH"],
+    "type": "Organic / Iodoform Reaction (3 Components)",
+    "equation": "CH3COCH3 + 3 I2 + 4 NaOH → CHI3↓ + CH3COONa + 3 NaI + 3 H2O",
+    "products": ["CHI3", "CH3COONa", "NaI", "H2O"],
+    "catalyst": null,
+    "conditions": "Warm solution (~50°C)",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -75.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright yellow antiseptic-smelling precipitate of iodoform (CHI3) forms instantly.",
+    "mechanism": "Base-catalyzed alpha-iodination followed by nucleophilic acyl substitution releasing triiodomethane anion.",
+    "industrialApplications": "Qualitative laboratory test for methyl ketones and secondary methyl alcohols.",
+    "safety": "Iodine and NaOH are skin irritants and corrosive.",
+    "wasteDisposal": "Filter yellow iodoform solid and collect in organic halogenated waste.",
+    "animation": ["precipitate-formation", "color-change"]
+  },
+  {
+    "id": "multi-comp-3",
+    "reactants": ["K2Cr2O7", "KI", "H2SO4"],
+    "type": "Redox Titration (3 Components)",
+    "equation": "K2Cr2O7 + 6 KI + 7 H2SO4 → Cr2(SO4)3 + 4 K2SO4 + 3 I2 + 7 H2O",
+    "products": ["Cr2(SO4)3", "K2SO4", "I2", "H2O"],
+    "catalyst": null,
+    "conditions": "Acidic aqueous medium, room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -240.0,
+    "thermicity": "Exothermic",
+    "observation": "Orange dichromate solution turns dark brown due to liberated iodine, turning green-brown overall.",
+    "mechanism": "Dichromate oxidizes iodide ions to free elemental iodine while Cr(VI) is reduced to green Cr(III).",
+    "industrialApplications": "Iodometric titrations and chemical estimation of oxidizing agents.",
+    "safety": "Hexavalent chromium (K2Cr2O7) is toxic and carcinogenic; sulfuric acid is corrosive.",
+    "wasteDisposal": "Collect chromium waste in dedicated hazardous heavy metal disposal containers.",
+    "animation": ["color-change"]
+  },
+  {
+    "id": "multi-comp-4",
+    "reactants": ["KMnO4", "H2C2O4", "H2SO4"],
+    "type": "Redox Titration (3 Components)",
+    "equation": "2 KMnO4 + 5 H2C2O4 + 3 H2SO4 → K2SO4 + 2 MnSO4 + 10 CO2↑ + 8 H2O",
+    "products": ["K2SO4", "MnSO4", "CO2", "H2O"],
+    "catalyst": "Mn2+ ions (Autocatalytic)",
+    "conditions": "Warmed solution (60-70°C)",
+    "reactionRate": "Slow initially, then rapidly accelerates (Autocatalysis)",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -290.0,
+    "thermicity": "Exothermic",
+    "observation": "Deep purple solution slowly decolourizes with effervescence of CO2 gas, becoming water-clear.",
+    "mechanism": "Permanganate oxidizes oxalic acid to carbon dioxide, autocatalyzed by produced Mn2+ ions.",
+    "industrialApplications": "Standardization of potassium permanganate solution in quantitative volumetric analysis.",
+    "safety": "Oxalic acid is toxic; potassium permanganate is a strong oxidant.",
+    "wasteDisposal": "Neutralize and dispose of manganese waste in designated chemical waste vessels.",
+    "animation": ["color-change", "gas-evolution"]
+  },
+  {
+    "id": "multi-comp-5",
+    "reactants": ["NaCl", "MnO2", "H2SO4"],
+    "type": "Inorganic Gas Preparation (3 Components)",
+    "equation": "2 NaCl + MnO2 + 2 H2SO4 → Na2SO4 + MnSO4 + 2 H2O + Cl2↑",
+    "products": ["Na2SO4", "MnSO4", "H2O", "Cl2"],
+    "catalyst": null,
+    "conditions": "Gentle heating",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -65.0,
+    "thermicity": "Exothermic",
+    "observation": "Pungent greenish-yellow chlorine gas evolves, black MnO2 dissolves.",
+    "mechanism": "Manganese dioxide oxidizes chloride ions from sodium chloride to elemental chlorine gas in acidic medium.",
+    "industrialApplications": "Laboratory generation of chlorine gas.",
+    "safety": "Chlorine gas is highly toxic and choking; reaction MUST be done in a fume hood.",
+    "wasteDisposal": "Pass excess gas into sodium hydroxide trap; dispose heavy metal residues.",
+    "animation": ["gas-evolution", "heat-effect"]
+  },
+  {
+    "id": "multi-comp-6",
+    "reactants": ["C6H5OH", "CHCl3", "NaOH"],
+    "type": "Reimer-Tiemann Reaction (3 Components)",
+    "equation": "C6H5OH + CHCl3 + 3 NaOH → C7H5O2Na + 3 NaCl + 2 H2O",
+    "products": ["Sodium Salicylaldehyde", "NaCl", "H2O"],
+    "catalyst": null,
+    "conditions": "Reflux at 60-70°C",
+    "reactionRate": "Moderate",
+    "activationEnergy": "High",
+    "enthalpyChange": -110.0,
+    "thermicity": "Exothermic",
+    "observation": "Reddish-orange solution formed; upon acidification gives aromatic fragrant salicylaldehyde.",
+    "mechanism": "Dichlorocarbene generated from chloroform and base attacks phenoxide ion in electrophilic substitution.",
+    "industrialApplications": "Synthesis of salicylaldehyde, precursor to aspirin and flavorings.",
+    "safety": "Chloroform is carcinogenic; sodium hydroxide is caustic; phenol causes skin burns.",
+    "wasteDisposal": "Collect chlorinated organic and phenolic waste in special halogenated organic waste containers.",
+    "animation": ["heat-effect", "color-change"]
+  },
+  {
+    "id": "multi-comp-7",
+    "reactants": ["C6H5NH2", "NaNO2", "HCl"],
+    "type": "Diazotization (3 Components)",
+    "equation": "C6H5NH2 + NaNO2 + 2 HCl → C6H5N2Cl + NaCl + 2 H2O",
+    "products": ["Benzenediazonium chloride", "NaCl", "H2O"],
+    "catalyst": null,
+    "conditions": "Ice-cold bath (0-5°C)",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -78.0,
+    "thermicity": "Exothermic",
+    "observation": "Clear yellow solution containing reactive diazonium salt forms without gas evolution.",
+    "mechanism": "Nitrous acid generated in situ reacts with primary aromatic amine to form unstable diazonium cation.",
+    "industrialApplications": "Key synthetic intermediate for azo dyes, pharmaceuticals, and fluoro/chloro aromatics.",
+    "safety": "Diazonium salts can be explosive if dried; keep in cold aqueous solution.",
+    "wasteDisposal": "Decompose diazonium salt by boiling before disposal.",
+    "animation": ["color-change"]
+  },
+  {
+    "id": "multi-comp-8",
+    "reactants": ["KNO3", "C", "S"],
+    "type": "Pyrotechnic / Gunpowder Combustion (3 Components)",
+    "equation": "2 KNO3 + 3 C + S → K2S + N2↑ + 3 CO2↑",
+    "products": ["K2S", "N2", "CO2"],
+    "catalyst": null,
+    "conditions": "Ignition spark / thermal initiation",
+    "reactionRate": "Explosive / Rapid",
+    "activationEnergy": "High",
+    "enthalpyChange": -710.0,
+    "thermicity": "Highly Exothermic",
+    "observation": "Rapid deflagration with thick white smoke, flash of light, and large gas expansion.",
+    "mechanism": "Potassium nitrate acts as solid oxygen donor, rapidly oxidizing sulfur and carbon fuel source.",
+    "industrialApplications": "Black powder, pyrotechnics, propellants, and historical explosives.",
+    "safety": "High explosion and burn hazard; avoid friction and static discharge.",
+    "wasteDisposal": "Burn small residual quantities safely in open controlled environment.",
+    "animation": ["flame", "sparks", "gas-evolution"]
+  },
+  {
+    "id": "multi-comp-9",
+    "reactants": ["Ca3(PO4)2", "SiO2", "C"],
+    "type": "Industrial Smelting / Phosphorus Extraction (3 Components)",
+    "equation": "2 Ca3(PO4)2 + 6 SiO2 + 10 C → 6 CaSiO3 + 10 CO↑ + P4↑",
+    "products": ["CaSiO3", "CO", "P4"],
+    "catalyst": null,
+    "conditions": "Electric arc furnace (>1400°C)",
+    "reactionRate": "Slow to Moderate",
+    "activationEnergy": "Very High",
+    "enthalpyChange": 1540.0,
+    "thermicity": "Endothermic",
+    "observation": "Molten slag (calcium silicate) forms; white phosphorus vapor distillates off.",
+    "mechanism": "Silica displaces phosphate from calcium salt forming slag; carbon reduces liberated phosphorus pentoxide.",
+    "industrialApplications": "Industrial production of elemental white phosphorus.",
+    "safety": "White phosphorus is pyrophoric; carbon monoxide is poisonous.",
+    "wasteDisposal": "Store white phosphorus under water; handle slag as inert solid waste.",
+    "animation": ["heat-effect", "gas-evolution"]
+  },
+  {
+    "id": "multi-comp-10",
+    "reactants": ["Fe2O3", "CO", "CaCO3"],
+    "type": "Blast Furnace Metallurgy (3 Components)",
+    "equation": "Fe2O3 + 3 CO + CaCO3 → 2 Fe + 3 CO2↑ + CaO + CO2↑",
+    "products": ["Fe", "CaO", "CO2"],
+    "catalyst": null,
+    "conditions": "High temperature blast furnace (800 - 1500°C)",
+    "reactionRate": "Continuous / Moderate",
+    "activationEnergy": "High",
+    "enthalpyChange": -25.0,
+    "thermicity": "Exothermic overall",
+    "observation": "Molten pig iron collects at furnace bottom; limestone decomposes to slag precursor.",
+    "mechanism": "Carbon monoxide reduces iron oxide stepwise to liquid iron while limestone acts as fluxing agent.",
+    "industrialApplications": "Primary industrial iron extraction and steelmaking blast furnaces.",
+    "safety": "Extreme heat and toxic CO gas hazard.",
+    "wasteDisposal": "Process slag into construction materials/aggregate.",
+    "animation": ["heat-effect", "sparks"]
+  },
+  {
+    "id": "multi-comp-11",
+    "reactants": ["C6H5CHO", "CH3CHO", "NaOH"],
+    "type": "Claisen-Schmidt Condensation (3 Components)",
+    "equation": "C6H5CHO + CH3CHO + NaOH → C6H5CH=CHCHO + H2O + NaOH",
+    "products": ["Cinnamaldehyde", "H2O"],
+    "catalyst": "NaOH (Base)",
+    "conditions": "10-25°C, dilute aqueous-alcoholic base",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -45.0,
+    "thermicity": "Exothermic",
+    "observation": "Yellowish oil/precipitate forms with strong cinnamon fragrance.",
+    "mechanism": "Base generates enolate from acetaldehyde which attacks non-enolizable benzaldehyde followed by dehydration.",
+    "industrialApplications": "Manufacture of cinnamaldehyde for perfumes, flavorings, and agrochemicals.",
+    "safety": "Base is caustic; aldehydes irritate eyes and respiratory tract.",
+    "wasteDisposal": "Neutralize alkaline phase; dispose organic layer in organic waste.",
+    "animation": ["color-change"]
+  },
+  {
+    "id": "multi-comp-12",
+    "reactants": ["RCHO", "NH3", "HCN"],
+    "type": "Strecker Amino Acid Synthesis (3 Components)",
+    "equation": "RCHO + NH3 + HCN → RCH(NH2)CN + H2O",
+    "products": ["alpha-aminonitrile", "H2O"],
+    "catalyst": null,
+    "conditions": "Aqueous-alcoholic solution, room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -60.0,
+    "thermicity": "Exothermic",
+    "observation": "Formation of aminonitrile intermediate which precipitates or remains in solution.",
+    "mechanism": "Aldehyde reacts with ammonia to form imine, followed by nucleophilic addition of cyanide ion.",
+    "industrialApplications": "Industrial synthesis of alpha-amino acids (e.g., DL-methionine, alanine).",
+    "safety": "EXTREMELY TOXIC: Hydrogen cyanide (HCN) gas and cyanide salts kill rapidly. Extreme care needed.",
+    "wasteDisposal": "Quench excess cyanide with alkaline sodium hypochlorite before disposal.",
+    "animation": ["heat-effect"]
+  },
+  {
+    "id": "multi-comp-13",
+    "reactants": ["C6H5CHO", "CH3COCH3", "NaOH"],
+    "type": "Aldol Condensation (3 Components)",
+    "equation": "2 C6H5CHO + CH3COCH3 + NaOH → C6H5CH=CH-CO-CH=CHC6H5 + 2 H2O",
+    "products": ["Dibenzalacetone", "H2O"],
+    "catalyst": "NaOH",
+    "conditions": "Ethanol-water solvent, room temperature stirring",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -85.0,
+    "thermicity": "Exothermic",
+    "observation": "Bright yellow solid precipitates out rapidly from solution.",
+    "mechanism": "Double cross-aldol condensation on both methyl groups of acetone with benzaldehyde.",
+    "industrialApplications": "Preparation of sunscreen UV filters and organic ligands.",
+    "safety": "Corrosive base; avoid skin contact.",
+    "wasteDisposal": "Filter solid precipitate; neutralize liquid filtrate.",
+    "animation": ["precipitate-formation", "color-change"]
+  },
+  {
+    "id": "multi-comp-14",
+    "reactants": ["RCHO", "R1-COOH", "R2-NC"],
+    "type": "Passerini 3-Component Reaction (3 Components)",
+    "equation": "RCHO + R1-COOH + R2-NC → R1-COO-CH(R)-CONH-R2",
+    "products": ["alpha-acyloxyamide"],
+    "catalyst": null,
+    "conditions": "Non-polar solvent (dichloromethane), room temperature",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -95.0,
+    "thermicity": "Exothermic",
+    "observation": "Pungent odor of isocyanide disappears as reaction proceeds to give crystalline amide.",
+    "mechanism": "Electrophilic activation of carbonyl by acid followed by nucleophilic addition of isocyanide and Mumm rearrangement.",
+    "industrialApplications": "Combinatorial chemistry for pharmaceutical drug discovery and peptidomimetic synthesis.",
+    "safety": "Isocyanides are foul-smelling and toxic; perform under fume hood.",
+    "wasteDisposal": "Dispose in halogenated organic waste container.",
+    "animation": ["heat-effect"]
+  },
+  {
+    "id": "multi-comp-15",
+    "reactants": ["RCHO", "R1-NH2", "R2-COOH", "R3-NC"],
+    "type": "Ugi 4-Component Reaction (4 Components)",
+    "equation": "RCHO + R1-NH2 + R2-COOH + R3-NC → R2-CON(R1)-CH(R)-CONH-R3 + H2O",
+    "products": ["bis-amide (bis-peptide fragment)", "H2O"],
+    "catalyst": null,
+    "conditions": "Methanol solvent, room temperature",
+    "reactionRate": "Fast",
+    "activationEnergy": "Low",
+    "enthalpyChange": -130.0,
+    "thermicity": "Exothermic",
+    "observation": "High atom-economy reaction forming complex amide without requiring isolating intermediates.",
+    "mechanism": "Imine formation between aldehyde and primary amine, followed by addition of isocyanide, carboxylate, and acyl transfer.",
+    "industrialApplications": "High-throughput synthesis of complex drug candidate libraries.",
+    "safety": "Isocyanides have an extremely objectionable stench and toxicity.",
+    "wasteDisposal": "Collect organic residues in organic waste container.",
+    "animation": ["heat-effect"]
+  },
+  {
+    "id": "multi-comp-16",
+    "reactants": ["C6H5CHO", "CH3COCH2COOC2H5", "H2NCONH2"],
+    "type": "Biginelli 3-Component Reaction (3 Components)",
+    "equation": "C6H5CHO + CH3COCH2COOC2H5 + H2NCONH2 → Dihydropyrimidinone + 2 H2O",
+    "products": ["Ethyl 6-methyl-2-oxo-4-phenyl-1,2,3,4-tetrahydropyrimidine-5-carboxylate", "H2O"],
+    "catalyst": "HCl or FeCl3 acid catalyst",
+    "conditions": "Ethanol solvent, reflux 2 hours",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -50.0,
+    "thermicity": "Exothermic",
+    "observation": "White or pale cream crystals deposit upon cooling the ethanol reaction mixture.",
+    "mechanism": "Acid-catalyzed iminium intermediate formation from aldehyde and urea, followed by addition of beta-ketoester and cyclization.",
+    "industrialApplications": "Synthesis of calcium channel blockers and antihypertensive medications.",
+    "safety": "Mild irritants; avoid inhalation of dust.",
+    "wasteDisposal": "Recycle solvent or dispose with organic chemical waste.",
+    "animation": ["precipitate-formation"]
+  },
+  {
+    "id": "multi-comp-17",
+    "reactants": ["AgNO3", "NH3", "NaOH"],
+    "type": "Tollens' Reagent Synthesis (3 Components)",
+    "equation": "AgNO3 + 3 NaOH + 2 NH3 → [Ag(NH3)2]OH + NaNO3 + NaOH + H2O",
+    "products": ["[Ag(NH3)2]OH", "NaNO3"],
+    "catalyst": null,
+    "conditions": "Aqueous medium, room temperature",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -20.0,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Brown precipitate of Ag2O forms initially upon NaOH addition, which dissolves completely with NH3 to give clear Tollens' reagent.",
+    "mechanism": "Silver hydroxide precipitates, then dissolves upon coordination with two ammonia ligands to form diamminesilver(I) complex.",
+    "industrialApplications": "Qualitative mirror test for aldehydes and reducing sugars, silvering of glass mirrors.",
+    "safety": "DANGER: Reagent must be prepared fresh and destroyed immediately after use to prevent explosive silver fulminate formation.",
+    "wasteDisposal": "Acidify excess reagent with dilute nitric acid to destroy silver complexes safely.",
+    "animation": ["color-change"]
+  },
+  {
+    "id": "multi-comp-18",
+    "reactants": ["CuSO4", "KNaC4H4O6", "NaOH"],
+    "type": "Fehling's Reagent Formation (3 Components)",
+    "equation": "CuSO4 + 4 KNaC4H4O6 + 2 NaOH → [Cu(C4H3O6)2]4- + Na2SO4 + K2SO4 + 2 H2O",
+    "products": ["Copper-Tartrate Complex", "Na2SO4", "K2SO4"],
+    "catalyst": null,
+    "conditions": "Mixing Fehling's A and B solutions at room temperature",
+    "reactionRate": "Instantaneous",
+    "activationEnergy": "Negligible",
+    "enthalpyChange": -15.0,
+    "thermicity": "Slightly Exothermic",
+    "observation": "Pale blue Cu2+ precipitate re-dissolves into a deep intense royal-blue complex solution.",
+    "mechanism": "Tartrate ions act as bidentate chelating ligands to keep copper(II) ions in soluble complex form in strongly alkaline solution.",
+    "industrialApplications": "Analytical detection of reducing sugars (glucose, fructose) and aldehydes.",
+    "safety": "Sodium hydroxide in Fehling's B makes solution caustic.",
+    "wasteDisposal": "Collect copper chemical waste separately.",
+    "animation": ["color-change"]
+  },
+  {
+    "id": "multi-comp-19",
+    "reactants": ["KBr", "MnO2", "H2SO4"],
+    "type": "Inorganic Halogen Extraction (3 Components)",
+    "equation": "2 KBr + MnO2 + 2 H2SO4 → K2SO4 + MnSO4 + 2 H2O + Br2↑",
+    "products": ["K2SO4", "MnSO4", "H2O", "Br2"],
+    "catalyst": null,
+    "conditions": "Heating mixture gently",
+    "reactionRate": "Moderate",
+    "activationEnergy": "Moderate",
+    "enthalpyChange": -52.0,
+    "thermicity": "Exothermic",
+    "observation": "Dense reddish-brown vapors of liquid bromine evolve and condense into dark red liquid drops.",
+    "mechanism": "Manganese dioxide oxidizes bromide ions to elemental bromine gas under acidic conditions.",
+    "industrialApplications": "Laboratory generation and distillation of liquid bromine.",
+    "safety": "Bromine vapor causes severe chemical burns to skin and respiratory tract; fume hood required.",
+    "wasteDisposal": "Neutralize excess bromine with aqueous sodium thiosulfate solution.",
+    "animation": ["gas-evolution", "heat-effect", "color-change"]
+  },
+  {
+    "id": "multi-comp-20",
+    "reactants": ["KI", "MnO2", "H2SO4"],
+    "type": "Inorganic Halogen Extraction (3 Components)",
+    "equation": "2 KI + MnO2 + 2 H2SO4 → K2SO4 + MnSO4 + 2 H2O + I2↑",
+    "products": ["K2SO4", "MnSO4", "H2O", "I2"],
+    "catalyst": null,
+    "conditions": "Gentle heating",
+    "reactionRate": "Fast with heat",
+    "activationEnergy": "Low",
+    "enthalpyChange": -40.0,
+    "thermicity": "Exothermic",
+    "observation": "Deep violet vapors of iodine evolve and sublime into shiny dark purple crystals on cool surfaces.",
+    "mechanism": "Oxidation of iodide to iodine by manganese dioxide in sulfuric acid medium.",
+    "industrialApplications": "Laboratory production and purification of iodine crystals.",
+    "safety": "Iodine vapors irritate eyes and nose.",
+    "wasteDisposal": "Recycle iodine crystals; treat aqueous waste with thiosulfate.",
+    "animation": ["gas-evolution", "crystal-formation", "color-change"]
+  }
+]

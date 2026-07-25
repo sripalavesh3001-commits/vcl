@@ -1,0 +1,54 @@
+{
+  "mcq": [
+    { "id": "q1", "topic": "Atomic Structure", "question": "What particle has a negative charge and orbits the nucleus?", "options": ["Proton", "Neutron", "Electron", "Positron"], "answer": 2, "explanation": "Electrons are negatively charged particles found in shells surrounding the nucleus." },
+    { "id": "q2", "topic": "Atomic Structure", "question": "The mass number of an atom equals:", "options": ["Protons only", "Neutrons only", "Protons + Neutrons", "Protons + Electrons"], "answer": 2, "explanation": "Mass number = number of protons + number of neutrons in the nucleus." },
+    { "id": "q3", "topic": "Periodic Table", "question": "Elements in the same group of the periodic table have similar:", "options": ["Atomic mass", "Number of valence electrons", "Number of neutrons", "Atomic radius"], "answer": 1, "explanation": "Elements in a group share the same number of valence electrons, giving them similar chemical properties." },
+    { "id": "q4", "topic": "Periodic Table", "question": "Which category of elements is the most chemically unreactive?", "options": ["Alkali metals", "Halogens", "Noble gases", "Transition metals"], "answer": 2, "explanation": "Noble gases have a complete valence shell, making them highly stable and unreactive." },
+    { "id": "q5", "topic": "Bonding", "question": "An ionic bond forms primarily between:", "options": ["Two nonmetals", "A metal and a nonmetal", "Two metals", "Two noble gases"], "answer": 1, "explanation": "Ionic bonds form when a metal transfers electrons to a nonmetal, creating oppositely charged ions that attract." },
+    { "id": "q6", "topic": "Bonding", "question": "A covalent bond is formed by:", "options": ["Transfer of electrons", "Sharing of electron pairs", "Loss of protons", "Attraction of ions"], "answer": 1, "explanation": "Covalent bonds involve the sharing of electron pairs between atoms, typically between nonmetals." },
+    { "id": "q7", "topic": "Acids and Bases", "question": "A solution with pH 3 is:", "options": ["Strongly basic", "Neutral", "Acidic", "Amphoteric"], "answer": 2, "explanation": "A pH below 7 indicates an acidic solution; pH 3 is fairly strongly acidic." },
+    { "id": "q8", "topic": "Acids and Bases", "question": "Which indicator turns pink in basic solutions and is colorless in acidic solutions?", "options": ["Methyl orange", "Litmus", "Phenolphthalein", "Universal indicator"], "answer": 2, "explanation": "Phenolphthalein is colorless below pH ~8.2 and turns pink above it." },
+    { "id": "q9", "topic": "Reaction Types", "question": "Zn + CuSO4 -> ZnSO4 + Cu is an example of a:", "options": ["Combustion reaction", "Single displacement reaction", "Neutralization reaction", "Decomposition reaction"], "answer": 1, "explanation": "A more reactive metal (Zn) displaces a less reactive metal (Cu) from its salt solution." },
+    { "id": "q10", "topic": "Reaction Types", "question": "The reaction AgNO3 + NaCl -> AgCl + NaNO3 is best classified as:", "options": ["Combustion", "Double displacement / precipitation", "Redox", "Hydrolysis"], "answer": 1, "explanation": "Two compounds exchange ions to form an insoluble precipitate (AgCl), a classic double displacement reaction." },
+    { "id": "q11", "topic": "Thermodynamics", "question": "A reaction that releases heat to the surroundings is called:", "options": ["Endothermic", "Exothermic", "Isothermic", "Adiabatic"], "answer": 1, "explanation": "Exothermic reactions release energy, usually as heat, causing the surroundings to warm up." },
+    { "id": "q12", "topic": "Thermodynamics", "question": "Activation energy is best described as:", "options": ["Total energy released in a reaction", "Minimum energy needed to start a reaction", "Energy stored in the products", "Energy absorbed by a catalyst"], "answer": 1, "explanation": "Activation energy is the energy barrier that reactants must overcome for a reaction to proceed." },
+    { "id": "q13", "topic": "Stoichiometry", "question": "The limiting reagent in a reaction is the reactant that:", "options": ["Is present in excess", "Is completely consumed first, limiting product formed", "Acts as a catalyst", "Does not react at all"], "answer": 1, "explanation": "The limiting reagent runs out first and determines the maximum amount of product that can form." },
+    { "id": "q14", "topic": "Stoichiometry", "question": "Percent yield is calculated as:", "options": ["Actual yield / Theoretical yield x 100", "Theoretical yield / Actual yield x 100", "Actual yield - Theoretical yield", "Theoretical yield x Actual yield"], "answer": 0, "explanation": "Percent yield compares the actual amount of product obtained to the maximum theoretically possible." },
+    { "id": "q15", "topic": "Gas Laws", "question": "Boyle's Law states that at constant temperature, pressure and volume of a gas are:", "options": ["Directly proportional", "Inversely proportional", "Unrelated", "Equal"], "answer": 1, "explanation": "Boyle's Law: P1V1 = P2V2 at constant temperature, showing pressure and volume are inversely proportional." },
+    { "id": "q16", "topic": "Gas Laws", "question": "The Ideal Gas Law is expressed as:", "options": ["PV = nRT", "PV = nT", "P = nRT/V^2", "PVT = nR"], "answer": 0, "explanation": "The ideal gas law relates pressure, volume, moles, and temperature via PV = nRT." },
+    { "id": "q17", "topic": "Organic Chemistry", "question": "The functional group -OH characterizes which class of compounds?", "options": ["Aldehydes", "Alcohols", "Carboxylic acids", "Ketones"], "answer": 1, "explanation": "The hydroxyl group (-OH) defines alcohols." },
+    { "id": "q18", "topic": "Organic Chemistry", "question": "Complete combustion of a hydrocarbon in excess oxygen produces:", "options": ["CO and H2", "CO2 and H2O", "C and H2O", "Only CO2"], "answer": 1, "explanation": "Complete combustion of hydrocarbons yields carbon dioxide and water." },
+    { "id": "q19", "topic": "Electrochemistry", "question": "During electrolysis, reduction occurs at the:", "options": ["Anode", "Cathode", "Salt bridge", "Electrolyte surface"], "answer": 1, "explanation": "Reduction (gain of electrons) always occurs at the cathode." },
+    { "id": "q20", "topic": "Electrochemistry", "question": "In a redox reaction, the substance that loses electrons is:", "options": ["Reduced", "Oxidized", "Neutralized", "Catalyzed"], "answer": 1, "explanation": "Oxidation is defined as the loss of electrons." }
+  ],
+  "trueFalse": [
+    { "id": "tf1", "topic": "Periodic Table", "statement": "Atomic radius generally increases as you move across a period from left to right.", "answer": false, "explanation": "Atomic radius generally decreases across a period due to increasing nuclear charge pulling electrons inward." },
+    { "id": "tf2", "topic": "Acids and Bases", "statement": "A neutralization reaction between a strong acid and strong base produces a salt and water.", "answer": true, "explanation": "This is the defining outcome of a strong acid-strong base neutralization." },
+    { "id": "tf3", "topic": "Reaction Types", "statement": "Precipitation reactions always release a gas.", "answer": false, "explanation": "Precipitation reactions form an insoluble solid, not necessarily a gas." },
+    { "id": "tf4", "topic": "Thermodynamics", "statement": "Endothermic reactions absorb energy from their surroundings.", "answer": true, "explanation": "Endothermic reactions take in heat, cooling the surroundings." },
+    { "id": "tf5", "topic": "Bonding", "statement": "Noble gases readily form ionic bonds with metals.", "answer": false, "explanation": "Noble gases have complete valence shells and are generally unreactive, rarely forming bonds." }
+  ],
+  "fillBlanks": [
+    { "id": "fb1", "topic": "Atomic Structure", "sentence": "The number of protons in an atom's nucleus is called its ____.", "answer": "atomic number" },
+    { "id": "fb2", "topic": "Acids and Bases", "sentence": "A substance that donates protons in solution is called a(n) ____ according to the Bronsted-Lowry definition.", "answer": "acid" },
+    { "id": "fb3", "topic": "Reaction Types", "sentence": "A reaction in which a single compound breaks down into two or more simpler substances is called ____.", "answer": "decomposition" },
+    { "id": "fb4", "topic": "Gas Laws", "sentence": "At constant pressure, the volume of a gas is directly proportional to its absolute temperature, according to ____'s Law.", "answer": "Charles" },
+    { "id": "fb5", "topic": "Stoichiometry", "sentence": "The reactant that is completely used up first in a reaction is called the ____ reagent.", "answer": "limiting" }
+  ],
+  "matchTheFollowing": [
+    {
+      "id": "mtf1",
+      "topic": "Reaction Types",
+      "left": ["Combustion", "Neutralization", "Precipitation", "Electrolysis"],
+      "right": ["Acid + Base -> Salt + Water", "Fuel + O2 -> CO2 + H2O", "Two solutions form an insoluble solid", "Electric current decomposes a compound"],
+      "correctPairs": [1, 0, 2, 3]
+    },
+    {
+      "id": "mtf2",
+      "topic": "Periodic Table",
+      "left": ["Alkali Metals", "Halogens", "Noble Gases", "Transition Metals"],
+      "right": ["Group 17, highly reactive nonmetals", "Group 1, one valence electron", "Group 18, complete valence shell", "d-block elements with variable oxidation states"],
+      "correctPairs": [1, 0, 2, 3]
+    }
+  ]
+}
